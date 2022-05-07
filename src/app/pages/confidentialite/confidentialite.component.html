@@ -6,7 +6,8 @@
                 <h1 class="privacy-policy-box--title display-3 display-3-grandient fw-bold mb-4 anim-elt-1">
                     <span *ngIf="translate.currentLang === 'en'">{{privacyPolicyDatas[0].titrePrivacyPolicyEn}}</span> 
                     <span *ngIf="translate.currentLang === 'fr'">{{privacyPolicyDatas[0].titrePrivacyPolicyFr}}</span> 
-                    <span *ngIf="translate.currentLang === 'ger'">{{privacyPolicyDatas[0].titrePrivacyPolicyGer}}</span> 
+                    <!-- <span *ngIf="translate.currentLang === 'ger'">{{privacyPolicyDatas[0].titrePrivacyPolicyGer}}</span>  -->
+                    <span *ngIf="translate.currentLang === 'ger'" class="de-texte mobile" [innerHTML]="privacyPolicyDatas[0].titrePrivacyPolicyGer"></span> 
                     <span *ngIf="translate.currentLang === 'sw'">{{privacyPolicyDatas[0].titrePrivacyPolicySw}}</span> 
                 </h1>
 
@@ -16,243 +17,10 @@
                     <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="privacyPolicyDatas[0].contenuPrivacyPolicyGer"></div>
                     <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="privacyPolicyDatas[0].contenuPrivacyPolicySw"></div>
                 </div>
-
-                <!-- <h5 class="privacy-policy-box--subtitle fw-bold mb-4 anim-elt-2">Liability within the meaning of data protection law:</h5>
-
-                <h3 class="privacy-policy-box--company anim-elt-3"> IotaOrigin UG
-                    <p class="privacy-policy-box--company__location anim-elt-4">Im Mediapark 5</p>
-                    <p class="privacy-policy-box--company__address anim-elt-5">50670 Koeln</p>
-                </h3>
-
-                <h2 class="privacy-policy-box--heading">Data protection</h2>
-                <p class="privacy-policy-box--paragraph">As a website operator, we take the protection of all personal data very seriously. All personal information is treated confidentially and in accordance with the legal requirements, as explained in this privacy policy.</p>
-                <p class="privacy-policy-box--paragraph">Our website can, of course, be used without you providing any personal data. However, if at any time personal data such as name, address or e-mail is requested, this will be done on a voluntary basis. Never will data collected by us be passed on to third parties without your specific permission.</p>
-                <p class="privacy-policy-box--paragraph">Data transmission on the Internet, such as via e-mail, can always have security gaps. The complete protection of data is not possible on the Internet.</p>
-
-                <h2 class="privacy-policy-box--heading">Privacy policy Twitter</h2>
-                <p class="privacy-policy-box--paragraph">Our websites use functions of the Twitter service, offered by Twitter Inc, 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. When you use Twitter or the "Re-Tweet" function, the web pages you visit are connected to your Twitter account. Other users can receive this information and data is sent to Twitter. As a website operator, we have no information about what data is transmitted and how it is used.</p>
-                <p class="privacy-policy-box--paragraph">You can find more information about this here: <a href="http://twitter.com/privacy">http://twitter.com/privacy</a>.</p>
-                <p class="privacy-policy-box--paragraph">In the account settings of your Twitter account (at <a href="http://twitter.com/account/settings">http://twitter.com/account/settings</a>) you can change your privacy settings on Twitter.</p>
-
-                <h2 class="privacy-policy-box--heading">Privacy policy Discord</h2>
-                <p class="privacy-policy-box--paragraph">We link to the communication app Discord, the privacy policy can be read here: <a href="https://discordapp.com/privacy">https://discordapp.com/privacy</a></p>
-
-                <h2 class="privacy-policy-box--heading">Server log files</h2>
-                <p class="privacy-policy-box--paragraph">The site provider automatically collects and stores data in server log files that are transmitted to us by your browser. This data includes:</p>
-                <div class="privacy-policy-box--paragraph">
-                    <ul>
-                        <li>Browser type/ browser version</li>
-                        <li>Operating system of the computer</li>
-                        <li>Referrer URL</li>
-                        <li>Host name of the accessing computer</li>
-                        <li>Time of the server request</li>
-                    </ul>
-                </div>
-                <p class="privacy-policy-box--paragraph">These data are not personal. This data is not merged with other data sources. If we become aware of concrete indications of illegal use, we reserve the right to check this data retrospectively.</p>
-
-
-                <h2 class="privacy-policy-box--heading">Cookies</h2>
-                <p class="privacy-policy-box--paragraph">Many Internet sites use cookies. Cookies are harmless to your computer and virus-free. They are used to make Internet services friendlier, more effective and safer for visitors to a website. Cookies are small text files that are stored on your computer and used by your browser.</p>
-                <p class="privacy-policy-box--paragraph">We usually use so-called "session cookies". These are automatically deleted after you leave our site. Other cookies remain stored on your computer until you delete them. These cookies help to recognize your computer on your next visit.</p>
-                <p class="privacy-policy-box--paragraph">You can use your browser settings to specify that you are to be informed about new cookies and that you must accept cookies in each case. Likewise, you can exclude the acceptance of cookies for certain cases or generally or activate the automatic deletion of cookies when closing the browser. If cookies are deactivated, the functionality of our website may be limited.</p>
-
-                <h2 class="privacy-policy-box--heading">Contact form</h2>
-                <p class="privacy-policy-box--paragraph">Contact data that reaches us via our contact form, including the content of the request, is stored for processing purposes and for possible follow-up questions. This data will not be passed on without your specific consent.</p>
-                <h4>Advertising mails objection</h4>
-                <p class="privacy-policy-box--paragraph">We hereby expressly prohibit the use of the contact data published in the imprint to send unsolicited advertising and information materials. In the case of unsolicited sending of advertising information, such as spam e-mails, the operators of the website reserve the right to take legal action.</p>
-
-                <h2 class="privacy-policy-box--heading">Newsletter data</h2>
-                <p class="privacy-policy-box--paragraph">For the use of the newsletter service offered by us, personal data such as e-mail address are collected. In addition, information is required that allows us to verify that you are the owner of the specified e-mail address and agree to receive the newsletter. All information will only be used for sending the newsletter, it will not be passed on to third parties.</p>
-                <p class="privacy-policy-box--paragraph">You can at any time revoke your consent to the storage of data, the e-mail address and its use for sending the newsletter. In the newsletter you will find a "unsubscribe" link for this purpose.</p>
-
-                <h2 class="privacy-policy-box--heading">Amendment of the privacy policy</h2>
-                <p class="privacy-policy-box--paragraph">Our privacy policy may be amended at irregular intervals to comply with current legal requirements or to implement changes to our services, e.g. when new offers are added. The new privacy policy will then automatically apply to your next visit.</p>
-
-                <h2 class="privacy-policy-box--heading">Contact the data protection officer</h2>
-                <p class="privacy-policy-box--paragraph">For questions regarding data protection, please send us a message to <a href="mailto:network@iotaorigin.de">network@iotaorigin.de</a> with the subject <b>"Data protection"</b>.</p> -->
-            
             </div>
         </div>
     </div>
 </section>
-
-
-
-
-<!-- START THE SECTION 8 : THE FOOTER  -->
-<!-- <section id="footer" class="footer text-white">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,176C213.3,192,267,160,320,144C373.3,128,427,128,480,154.7C533.3,181,587,235,640,229.3C693.3,224,747,160,800,138.7C853.3,117,907,139,960,138.7C1013.3,139,1067,117,1120,138.7C1173.3,160,1227,224,1280,208C1333.3,192,1387,96,1413,48L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-12 col-lg-6 get-in-touch text-center">
-                <h3 class="get-in-touch--title fw-bold anim-elt-37">Get in touch !</h3>
-                <p class="lead get-in-touch--subtitle anim-elt-38">How can we help?</p>
-            </div>
-            
-            <div class="col-12 col-lg-6">
-                <div id="contact" class="form w-100 pb-3">
-                    <form action="#" class="row">
-                        <div class="col-lg-6 col-md-6 mb-3"><input type="txt" placeholder="Your Name:" id="inputName" class="shadow form-control form-control-lg anim-elt-47"></div>
-                        <div class="col-lg-6 col-md-6 mb-3"><input type="email" placeholder="Your Email:" id="inputEmail" class="shadow form-control form-control-lg anim-elt-48"></div>
-                        <div class="col-lg-12 mb-3"><input type="text" placeholder="Subject:" id="inputSubject" class="shadow form-control form-control-lg anim-elt-49"></div>
-                        <div class="col-lg-12 mb-3">
-                            <textarea name="message" id="message" rows="3" placeholder="Your Message:" class="shadow form-control form-control-lg anim-elt-50"></textarea>
-                        </div>
-                        <div class="text-center d-grid mt-1">
-                            <button type="button" class="rounded-pill btn-rounded anim-elt-51">Send
-                                <span><i class="fas fa-paper-plane"></i></span>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="row pt-3 pb-3 d-flex align-items-center">
-            <div class="col-12 col-md-4 align-items-center text-center">
-                <a href="" class="brand">
-                    <img src="assets/images/Logo-white.png" alt="" class="brand-logo align-middle anim-elt-39">
-                </a>
-            </div>
-            <div class="col-12 col-md-8">
-                <ul class="nav footer-menu align-middle">
-                    <li class="nav-item anim-elt-40">
-                      <a class="nav-link active" aria-current="page" href="#about-us">ABOUT US</a>
-                    </li>
-                    <li class="nav-item anim-elt-41">
-                      <a class="nav-link" href="#service">SERVICE</a>
-                    </li>
-                    <li class="nav-item anim-elt-42">
-                      <a class="nav-link" href="#benefits">BENEFITS</a>
-                    </li>
-                    <li class="nav-item anim-elt-43">
-                      <a class="nav-link" href="#goals">GOALS</a>
-                    </li>
-                    <li class="nav-item anim-elt-44">
-                      <a class="nav-link" href="#newsroom">NEWSROOM</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row pb-2 pt-2 d-flex align-items-center">
-            <div class="col-sm-12 col-md-4"></div>
-            <div class="col-sm-12 col-md-8">
-                <ul class="social-media-links justify-content-center">
-                    <li class="social-item">
-                        <a href="" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
-                        <a href="" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row pb-5 pt-2 d-flex align-items-center">
-            <div class="col-sm-12 col-md-4 text-center copyright">
-                <p class="lead copyright--content text-white">© 2022 IotaOrigin UG. All rights reserved.</p>
-            </div>
-            <div class="col-sm-12 col-md-8 text-center text-white terms-menu">
-                <ul class="nav footer-menu terms-menu--content align-middle">
-                    <li class="nav-item">
-                      <a class="nav-link" (click)="goToLegal()" href="Javascript:void(0)" >Imprint</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Privacy policy</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-
-<!-- START THE SECTION 8 : THE FOOTER  -->
-<!-- <section id="footer" class="footer text-white">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,176C213.3,192,267,160,320,144C373.3,128,427,128,480,154.7C533.3,181,587,235,640,229.3C693.3,224,747,160,800,138.7C853.3,117,907,139,960,138.7C1013.3,139,1067,117,1120,138.7C1173.3,160,1227,224,1280,208C1333.3,192,1387,96,1413,48L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-12 col-lg-6 get-in-touch text-center">
-                <h3 class="get-in-touch--title fw-bold anim-elt-37">Get in touch !</h3>
-                <p class="lead get-in-touch--subtitle anim-elt-38">How can we help?</p>
-            </div>
-            
-            <div class="col-12 col-lg-6">
-                <div id="contact" class="form w-100 pb-3">
-                    <form action="#" class="row">
-                        <div class="col-lg-6 col-md-6 mb-3"><input type="txt" placeholder="Your Name:" id="inputName" class="shadow form-control form-control-lg anim-elt-47"></div>
-                        <div class="col-lg-6 col-md-6 mb-3"><input type="email" placeholder="Your Email:" id="inputEmail" class="shadow form-control form-control-lg anim-elt-48"></div>
-                        <div class="col-lg-12 mb-3"><input type="text" placeholder="Subject:" id="inputSubject" class="shadow form-control form-control-lg anim-elt-49"></div>
-                        <div class="col-lg-12 mb-3">
-                            <textarea name="message" id="message" rows="3" placeholder="Your Message:" class="shadow form-control form-control-lg anim-elt-50"></textarea>
-                        </div>
-                        <div class="text-center d-grid mt-1">
-                            <button type="button" class="rounded-pill btn-rounded anim-elt-51">Send
-                                <span><i class="fas fa-paper-plane"></i></span>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="row pt-3 pb-3 d-flex align-items-center">
-            <div class="col-12 col-md-4 align-items-center text-center">
-                <a href="" class="brand">
-                    <img src="assets/images/Logo-white.png" alt="" class="brand-logo align-middle anim-elt-39">
-                </a>
-            </div>
-            <div class="col-12 col-md-8">
-                <ul class="nav footer-menu align-middle">
-                    <li class="nav-item anim-elt-40">
-                      <a class="nav-link active" aria-current="page" href="#about-us">ABOUT US</a>
-                    </li>
-                    <li class="nav-item anim-elt-41">
-                      <a class="nav-link" href="#service">SERVICE</a>
-                    </li>
-                    <li class="nav-item anim-elt-42">
-                      <a class="nav-link" href="#benefits">BENEFITS</a>
-                    </li>
-                    <li class="nav-item anim-elt-43">
-                      <a class="nav-link" href="#goals">GOALS</a>
-                    </li>
-                    <li class="nav-item anim-elt-44">
-                      <a class="nav-link" href="#newsroom">NEWSROOM</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row pb-2 pt-2 d-flex align-items-center">
-            <div class="col-sm-12 col-md-4"></div>
-            <div class="col-sm-12 col-md-8">
-                <ul class="social-media-links justify-content-center">
-                    <li class="social-item">
-                        <a href="" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
-                        <a href="" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row pb-5 pt-2 d-flex align-items-center">
-            <div class="col-sm-12 col-md-4 text-center copyright">
-                <p class="lead copyright--content text-white">© 2022 IotaOrigin UG. All rights reserved.</p>
-            </div>
-            <div class="col-sm-12 col-md-8 text-center text-white terms-menu">
-                <ul class="nav footer-menu terms-menu--content align-middle">
-                    <li class="nav-item">
-                      <a class="nav-link" href="Javascript:void(0)" (click)="goToLegal()">Imprint</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Javascript:void(0)" >Privacy policy</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 
 
 <!-- START THE SECTION 8 : THE FOOTER  -->
@@ -359,7 +127,7 @@
                 <ul class="social-media-links justify-content-center">
                     <li class="social-item">
                         <a href="{{footerDatas[0].discordLink}}" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
-                        <a href="{{footerDatas[0].twitterlink}}" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
+                        <a href="{{footerDatas[0].twitterlink}}" class="twitter anim-elt-46 footer-icon"><i class="fab fa-twitter"></i></a>
                     </li>
                 </ul>
             </div>

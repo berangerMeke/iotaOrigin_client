@@ -126,9 +126,9 @@
     "titre_footer": "Nous Contacter !",
     "sous_titre_footer": "Comment pouvons-nous vous aider ?",
 
-    "texte_form_nom_footer": "Votre Nous",
+    "texte_form_nom_footer": "Votre Nom",
     "texte_form_email_footer": "Votre Email",
-    "texte_form_sujet_footer": "Sujet",
+    "texte_form_sujet_footer": "Objet",
     "texte_form_message_footer": "Votre Message",
     "texte_form_bouton_footer": "Envoyer",
 
@@ -145,7 +145,7 @@
     "texte_form_service_footer": "SERVICE",
     "texte_form_avantage_footer": "AVANTAGES",
     "texte_form_objectif_footer": "OBJECTIFS",
-    "texte_form_newroom_footer": "DERNIERES NOUVELLES",
+    "texte_form_newroom_footer": "NEWSROOM",
     
     "texte_form_droit_footer": "Tous droits réservés.",
     "texte_form_lecal_footer": "Légal",

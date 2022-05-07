@@ -6,6 +6,89 @@
     line-height: 60px;
 }
 
+:host >>> div .slide-text div p + p {
+  color: #6c757d !important; 
+  font-size: 15px !important;
+}
+
+:host >>> div .slide-title div p a strong {
+  font-size: 17px !important;
+  line-height: 1.2 !important;
+  display: inline-block;
+  color: #1958A2;
+  transition: all 0.3s ease 0s;
+  text-decoration: underline;
+}
+
+:host >>> div .slide-title div p a:hover strong {
+  font-size: 17px !important;
+  line-height: 1.2 !important;
+  color: #5DBA47;
+  text-decoration: none;
+}
+
+.item-content {
+  padding-left: 1rem;
+}
+
+
+@media screen and (max-width: 992px) {
+  :host >>> .mobile span {
+    display: inline-block !important;
+  }
+
+  .image-style {
+    width: 100%;
+  }
+
+  .image-style2 {
+    width: 80%;
+  }
+
+  .col-2 {
+    flex: 0 0 auto;
+    width: 10.66666667% !important;
+  }
+}
+
+
+/* .goals {
+  background-color: #fff;
+}
+.goals .container {
+  padding: 5rem 0 8rem;
+}
+@media (max-width: 767.98px) {
+  .goals .container {
+    padding: 5rem 0;
+  }
+}
+.goals svg.goals-bottom {
+  margin-bottom: -0.2953rem;
+}
+@media (min-width: 992px) {
+  .goals svg.goals-bottom {
+    margin-bottom: 0;
+  }
+} */
+
+
+.footer-icon {
+  margin-left: 4px;
+}
+
+.de-texte {
+  text-transform: none !important;
+}
+
+
+.item-icon i {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #5DBA47;
+}
+
+
 .titre2 {
     color: #4a4c4e;
     font-size: 150%;

@@ -148,6 +148,9 @@ export class ConfidentialiteComponent implements OnInit {
   getPrivacyPolicies(){
     this.appService.getPrivacyPolicies().subscribe(data =>{     
         this.privacyPolicyDatas = data;
+        this.privacyPolicyDatas[0].titrePrivacyPolicyGer = this.privacyPolicyDatas[0].titrePrivacyPolicyGer.replaceAll('+','<span>');
+        this.privacyPolicyDatas[0].titrePrivacyPolicyGer = this.privacyPolicyDatas[0].titrePrivacyPolicyGer.replaceAll('-','</span>')
+        console.log(this.privacyPolicyDatas[0].titrePrivacyPolicyGer); 
         console.log(this.privacyPolicyDatas); 
         this.changeLanguage();
     });

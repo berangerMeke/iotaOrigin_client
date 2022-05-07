@@ -27,7 +27,7 @@
 
     "titre_accueil": "Vertrauenswürdige Ressourcen.",
     "texte_accueil": "Sichere, nachvollziehbare und digitale Lieferketten für Ihre Waren.",
-    "texte_bouton_accueil": "Kontaktiere uns",
+    "texte_bouton_accueil": "Kontaktieren Sie uns",
  
 "--------------------------------- POUR LA SECTION A PROPOS --------------------": ".",
 
@@ -129,7 +129,7 @@
 
     "texte_form_nom_footer": "Dein Name",
     "texte_form_email_footer": "Deine E-Maill",
-    "texte_form_sujet_footer": "Thema",
+    "texte_form_sujet_footer": "Betreff",
     "texte_form_message_footer": "Deine Nachricht",
     "texte_form_bouton_footer": "Senden",
 
@@ -143,10 +143,10 @@
     "connection_error": "Keine Internetverbindung !",
   
   
-    "texte_form_a_propos_footer": "IN BEZUG AUF",
+    "texte_form_a_propos_footer": "ÜBER UNS",
     "texte_form_service_footer": "SERVICE",
     "texte_form_avantage_footer": "VORTEILE",
-    "texte_form_objectif_footer": "TORE",
+    "texte_form_objectif_footer": "ZIELE",
     "texte_form_newroom_footer": "NACHRICHTEN",
     
     "texte_form_droit_footer": "Alle Rechte vorbehalten.",

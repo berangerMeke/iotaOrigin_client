@@ -129,7 +129,7 @@
 
     "texte_form_nom_footer": "Your Name",
     "texte_form_email_footer": "Your Email",
-    "texte_form_sujet_footer": "Topic",
+    "texte_form_sujet_footer": "Subject",
     "texte_form_message_footer": "Your message",
     "texte_form_bouton_footer": "Send",
 
@@ -144,8 +144,8 @@
   
     "texte_form_a_propos_footer": "ABOUT US",
     "texte_form_service_footer": "SERVICE",
-    "texte_form_avantage_footer": "AVANTAGES",
-    "texte_form_objectif_footer": "OBJECTIFS",
+    "texte_form_avantage_footer": "BENEFITS",
+    "texte_form_objectif_footer": "GOALS",
     "texte_form_newroom_footer": "NEWSROOM",
     
     "texte_form_droit_footer": "All rights reserved.",
@@ -155,7 +155,7 @@
     "texte_form_politique_footer": "Cookies Policies",
 
     "texte_form_imprint_footer": "Imprint",
-    "texte_form_Privacy_policy_footer": "Privacy Policy",
+    "texte_form_Privacy_policy_footer": "Privacy policy",
 
 
     "-------------------------------------- COOKIE -----------------------------": ".",

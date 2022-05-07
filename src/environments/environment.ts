@@ -3,14 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   base_url: 'http://127.0.1.1:8080/api/',
-  auth_Url: 'http://127.0.1.1:1092/oauth/token',
-  // base_url: 'http://localhost:9210/api/',
-  //auth_Url: 'http://75.119.154.135:1092/oauth/token',
-  //base_url: 'http://75.119.154.135:1092/api/',
-  ga: 'G-D46TJPH9HE'
-};
+  auth_Url: '',
+  ga: String(JSON.parse(localStorage.getItem('googleAnalyticsID') || '{}').id),  
+}
 
 /*
  * For easier debugging in development mode, you can import the following file

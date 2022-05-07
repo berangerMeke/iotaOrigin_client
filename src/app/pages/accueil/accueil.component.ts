@@ -34,6 +34,12 @@ export class AccueilComponent implements OnInit {
     form: any = FormGroup;
     contacForm : any;
 
+
+    paragrapheEn : any = [];
+    paragrapheFr : any = [];
+    paragrapheGer : any = [];
+    paragrapheSw : any = []
+
     closed = true;
     isContactSuccess = false;
     isContactFormErrror = false;
@@ -189,6 +195,9 @@ export class AccueilComponent implements OnInit {
     this.appService.getIntro().subscribe(data =>{     
       console.log(data); 
       this.introDatas = data;
+      this.introDatas[0].titreGer = this.introDatas[0].titreGer.replaceAll('+','<span>');
+      this.introDatas[0].titreGer = this.introDatas[0].titreGer.replaceAll('-','</span>')
+      console.log(this.introDatas[0].titreGer); 
      // this.changeLanguage();
     });
   }
@@ -213,7 +222,29 @@ export class AccueilComponent implements OnInit {
     this.appService.getAdvantages().subscribe(data =>{     
       this.advantagesDatas = data;
       console.log(this.advantagesDatas); 
-     // this.changeLanguage();
+      const paragrapheEn_remove_ul_li = this.advantagesDatas[0].textParagraphe1En.split("<ul><li>");
+      const paragrapheFr_remove_ul_li = this.advantagesDatas[0].textParagraphe1FR.split("<ul><li>");
+      const paragrapheGer_remove_ul_li = this.advantagesDatas[0].textParagraphe1Ger.split("<ul><li>");
+      const paragrapheSw_remove_ul_li = this.advantagesDatas[0].textParagraphe1Sw.split("<ul><li>");
+
+      this.paragrapheEn.push(paragrapheEn_remove_ul_li[1].split("</li>")[0]);
+      this.paragrapheFr.push(paragrapheFr_remove_ul_li[1].split("</li>")[0]);
+      this.paragrapheGer.push(paragrapheGer_remove_ul_li[1].split("</li>")[0]);
+      this.paragrapheSw.push(paragrapheSw_remove_ul_li[1].split("</li>")[0]);
+
+      for(let i= 1; i < paragrapheEn_remove_ul_li[1].split("</li>").length; i++){  
+        this.paragrapheEn.push(paragrapheEn_remove_ul_li[1].split("</li>")[i].split("<li>")[1]);
+        this.paragrapheFr.push(paragrapheFr_remove_ul_li[1].split("</li>")[i].split("<li>")[1]);
+        this.paragrapheGer.push(paragrapheGer_remove_ul_li[1].split("</li>")[i].split("<li>")[1]);
+        this.paragrapheSw.push(paragrapheSw_remove_ul_li[1].split("</li>")[i].split("<li>")[1]);
+      }
+     
+      console.log(this.paragrapheEn);
+      console.log(this.paragrapheFr);
+      console.log(this.paragrapheGer);
+      console.log(this.paragrapheSw);
+     
+      // this.changeLanguage();
     });
   }
 
@@ -236,9 +267,8 @@ export class AccueilComponent implements OnInit {
 
   getDernieresNouvelles(){
     this.appService.getDernieresNouvelles().subscribe(data =>{     
-      this.dernieresNouvellesDatas = data;
+      this.dernieresNouvellesDatas = data;     
       console.log(this.dernieresNouvellesDatas); 
-
       // this.changeLanguage();
     });
   }

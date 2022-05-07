@@ -7,7 +7,9 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent'; 
+// import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent'; 
+// import { NgxCookiebotModule } from '@halloverden/ngx-cookiebot';
+// import { CookiebotConfig } from '../utils/cookiebot.config';
 import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
@@ -28,34 +30,34 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
-const cookieConfig: NgcCookieConsentConfig = {
-  "cookie": {
-    "domain": 'localhost' // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
-  },
-  position: 'bottom-left',
-  palette: {
-    popup: {
-      background: '#ffffff',
-      text: '#1f2122',
-      link: '#1f2122'
-    },
-    button: {
-      background: '#002850',
-      text: '#ffffff',
-      border: 'transparent'
-    }
-  },
-  theme: 'classic',
-  type: 'opt-out',
-  content: { 
-    message : 'We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.',
-    dismiss : 'Got it!',
-    deny : 'Deny cookies',
-    link : 'Learn more',
-    href : 'https://policies.google.com/technologies/cookies',
-    policy : 'Cookie Policy'
-  }
-};
+// const cookieConfig: NgcCookieConsentConfig = {
+//   "cookie": {
+//     "domain": 'localhost' // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+//   },
+//   position: 'bottom-left',
+//   palette: {
+//     popup: {
+//       background: '#ffffff',
+//       text: '#1f2122',
+//       link: '#1f2122'
+//     },
+//     button: {
+//       background: '#002850',
+//       text: '#ffffff',
+//       border: 'transparent'
+//     }
+//   },
+//   theme: 'classic',
+//   type: 'opt-out',
+//   content: { 
+//     message : 'We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.',
+//     dismiss : 'Got it!',
+//     deny : 'Deny cookies',
+//     link : 'Learn more',
+//     href : 'https://policies.google.com/technologies/cookies',
+//     policy : 'Cookie Policy'
+//   }
+// };
 
 
 export function translateHttpLoaderFactory(http: HttpClient) {
@@ -79,6 +81,7 @@ export function translateHttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+  //  NgxCookiebotModule.forRoot(CookiebotConfig),
     CarouselModule,
     SlickCarouselModule,
     FormsModule,
@@ -88,7 +91,8 @@ export function translateHttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     NgxGoogleAnalyticsModule.forRoot(environment.ga),
     NgxGoogleAnalyticsRouterModule.forRoot({ include: [ '/page-*' ] }),
-    NgcCookieConsentModule.forRoot(cookieConfig),
+    
+    //NgcCookieConsentModule.forRoot(cookieConfig),
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,

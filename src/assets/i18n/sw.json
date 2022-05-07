@@ -127,11 +127,11 @@
     "titre_footer": "Nous Contacter !",
     "sous_titre_footer": "Comment pouvons-nous vous aider ?",
 
-    "texte_form_nom_footer": "Wako Sisi",
-    "texte_form_email_footer": "Wako Email",
-    "texte_form_sujet_footer": "Mada",
+    "texte_form_nom_footer": "Jina lako",
+    "texte_form_email_footer": "Barua pepe yako",
+    "texte_form_sujet_footer": "Somo",
     "texte_form_message_footer": "Ujumbe wako",
-    "texte_form_bouton_footer": "Kutuma",
+    "texte_form_bouton_footer": "Tuma",
 
     "form_contact_name_error": "Tafadhali weka jina lako",
     "form_contact_email_error": "Tafadhali weka barua pepe yako",
@@ -153,8 +153,8 @@
     "texte_form_termes_footer": "Termes Du Service",
     "texte_form_condition_footer": "Tangazo la kisiri",
 
-    "texte_form_imprint_footer": "Imprint",
-    "texte_form_Privacy_policy_footer": "Privacy policy",
+    "texte_form_imprint_footer": "Notisi ya kisheria",
+    "texte_form_Privacy_policy_footer": "Tangazo la kisiri",
 
 
     "-------------------------------------- COOKIE -----------------------------": ".",

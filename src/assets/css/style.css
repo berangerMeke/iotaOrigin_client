@@ -11554,15 +11554,28 @@ body {
   padding-left: 1rem;
 }
 
+
 .goals {
   background-color: #fff;
+}
+.goals .container {
   padding: 5rem 0 8rem;
 }
+
 @media (max-width: 767.98px) {
-  .goals {
+  .goals .container {
     padding: 5rem 0;
   }
 }
+.goals svg.goals-bottom {
+  margin-bottom: -0.2953rem;
+}
+@media (min-width: 992px) {
+  .goals svg.goals-bottom {
+    margin-bottom: 0;
+  }
+}
+
 
 .faq {
   background-color: #E6F2FE;

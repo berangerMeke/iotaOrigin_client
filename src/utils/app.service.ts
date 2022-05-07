@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {environment} from '../environments/environment';
 import { Observable, Subject } from 'rxjs';
-import { ContactSend } from '../utils/contact-model'
+import { ContactSend } from './contact-model'
 
 
 @Injectable({
@@ -77,6 +77,9 @@ export class AppService {
   }
 
 
+  public getGoogleAnalyticsID(): Observable<any[]>{
+    return this.http.get<any[]>(environment.base_url + 'google-analitcs');
+  }
 
 
 
@@ -90,9 +93,10 @@ export class AppService {
 
 
   envoieEmail(email : ContactSend): Observable<any> {
-    return this.http.post(environment.base_url+ "account/send-emaile", email);
+    return this.http.post(environment.base_url+ "account/send-email", email);
   }
 
+  
 
 
 
