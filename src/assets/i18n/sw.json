@@ -1,0 +1,185 @@
+{
+    "lang": "Langage", 
+    "fr": "FR",
+    "french": "Français",
+    "en": "EN",
+    "english": "Anglais",
+    "profil": "Profil",
+    "dashboard": "Tableau de Bord",
+
+    
+
+
+"---------------------------------  POUR LE MENU --------------------": ".",
+   
+    "accueil": "Accueil",
+    "a_propos": "A Propos",
+    "service": "Service",
+    "avantage": "Avantage",
+    "objectif": "Objectif",
+    "faq": "FAQ",
+    "dernieres_nouvelles": "Dernières Nouvelles",
+    "equipe_projet": "Equipe du projet",
+    "contact": "Contact",
+   
+
+"--------------------------------- POUR LA SECTION ACCUEIL --------------------": ".",
+
+    "titre_accueil": "Les ressources de confiance",
+    "texte_accueil": "Des chaînes d'approvisionnement sécurisées, traçables et numériques pour vos marchandises.",
+    "texte_bouton_accueil": "Wasiliana nasi",
+ 
+"--------------------------------- POUR LA SECTION A PROPOS --------------------": ".",
+
+    "titre_a_propos": "A Propos",
+    "texte_a_propos1": "Dans la perspective d’une transition énergétique économiquement et écologiquement nécessaire, suivie tant politiquement que publiquement de nouvelles technologies de production d’énergie et de stockage du dioxyde de carbone sont mise en place. Les matières premières libres de conflit sont indispensables à la mise en œuvre technique de la transition énergétique.",    
+    "texte_a_propos2": "Au même moment, l’extraction de matières premières est souvent associée aux pays d’origine qui sont instables et en proie des conflits, c’est pourquoi les mesures réglementaires restreignent de plus en plus l’importation de ces matières premières. Cependant, l’implémentation de la réglementation a un effet néfaste sur la population locale, qui dépend de l’EMAPE (Exploitation Minière Artisanale et à Petite Echelle). La mise en œuvre affecte les investissements et astreint l’extraction durable des matières premières de base et leur accès au marché. Cela conduit à la migration du secteur de l’EMAPE vers une surexploitation incontrôlée.",    
+    "texte_a_propos3": "IotaOrigin UG aborde les problèmes économiques et sociaux mentionnés. Ceux-ci incluent l’extraction de matières premières d’une manière conforme aux droits de l’homme et compatible avec l’environnement, conformément aux lignes directrices de l’OCDE sur le devoir de diligence et aux réglementations internationales y afférentes. L’objectif est de s’assurer que la transition énergétique est éthiquement responsable et, en même temps, de remplir les ODD (Objectifs de Développement Durable) de l’ONU en soutenant la population locale.",    
+
+"--------------------------------- POUR LA SECTION SERVICE --------------------": ".",
+
+    "titre_service": "Service",
+    "sous_titre_service": "Quelle est la particularité de notre offre ?",
+    "texte_service": "IotaOrigin est une plateforme de commerce international de matières premières et de marchandises non conflictuelles. De plus, IotaOrigin permet de tracer les matières premières non conflictuelles via une application grâce à la distributed ledger technology. Cela permet à tous les acteurs de la chaîne d’approvisionnement de respecter les “Principes directeurs de l’OCDE relatifs au devoir de diligence en vue de promouvoir des chaînes d’approvisionnement responsables pour les minerais provenant de zones de conflit ou à haut risque” toute en gardant confidentiel les accords commerciaux entre ces acteurs des chaînes d’approvisionnement.",
+       
+
+"--------------------------------- POUR LA SECTION AVANTAGES --------------------": ".",
+
+"titre_avantages": "Avantages",
+"sous_titre_avantages": "De quoi pouvez-vous bénéficier ?",
+"texte_avantages1": "Traçabilité numérique et gratuite des matières premières non conflictuelles et des biens sans frais de licence, avec possibilité de monétisation et d'optimisation des données dans vos chaînes d'approvisionnement.",
+"texte_avantages2": "Suivi des matières premières non conflictuelles dans le respect des accords commerciaux, garantissant ainsi l'établissement de marchés libres et l'obtention de meilleurs prix en comparaison aux modèles Closed-Pipe.",
+"texte_avantages3": "Une Conformité avec les réglementations internationales",
+"texte_avantages4": "Permettre un approvisionnement responsable et durable en matières premières non conflictuelles et leur commercialisation.",
+
+
+
+"--------------------------------- POUR LA SECTION OBJECTIFS --------------------": ".",
+
+    "titre_objectifs": "Objectifs",
+    "sous_titre_objectifs": "Tout un voyage à faire",
+    "texte_objectifs": "Un approvisionnement durable et responsable est une étape vers la réalisation des objectifs de développement durable des Nations unies. Avec ses produits, IotaOrigin UG souhaite contribuer à l’atteinte de ces objectifs et faire un pas vers une plus grande prise de conscience lors de l’achat de matières premières, tout en soutenant la population locale.",
+
+
+    "--------------------------------- POUR LA SECTION FAQ --------------------": ".",
+
+    "titre_faq": "FAQ",
+    "sous_titre_faq": "Questions et réponses les plus fréquentes",
+
+    "texte_accordion_titre1": "Qu'est-ce que l'ASM ?", 
+    "texte_accordion_contenu1": "Le nombre global de mineurs travaillant dans des exploitations minières artisanales et à petite échelle (en anglais Artisanal Small Scale Mining) s’est vu détripler depuis 1993 pour atteindre environ 45 Millions de personnes. S’y ajoutent entre 60 et 150 millions de personnes qui dépendent indirectement des revenus du secteur ASM. Environ 90 % des orpailleurs travaillent dans les ASM et contribuent à hauteur de 10 % à la production annuelle d’or dans le monde. Le secteur informel de l’ASM pourrait contribuer par une formalisation poussée à la réalisation des ODD.",
+
+    "texte_accordion_titre2": "Que signifient les ODD ?", 
+    "texte_accordion_contenu2": "La formalisation du secteur minier artisanal et á petite échelle, actuellement informel, peut également contribuer à la réalisation des objectifs suivants : travail décent et croissance économique durable, santé et bien-être, partenariats pour la réalisation des objectifs de développement durable, protection de la vie sous-l’eau et terrestre, et égalité des sexes. Les Objectifs de développement durable (ODD) comprennent 17 objectifs pour le développement d’un avenir durable. Les ODD ont été établis par l’Assemblée générale des Nations unies en 2015 et doivent être atteints en 2030. Selon le PNUD, le secteur minier artisanal et á petite échelle peut contribuer de manière significative à la réalisation de ces objectifs. Il s’agit notamment de contribuer à la réduction de la pauvreté, à l’éducation, aux villes et communautés pérennes, aux énergies renouvelables, à l’innovation et aux infrastructures.",
+
+    "texte_accordion_titre3": "Que signifient les matières premières critiques ?", 
+    "texte_accordion_contenu3": "Les matières premières critiques désignent les matières qui sont indispensables au progrès durable et au développement des nouvelles technologies. Elles sont importantes d’un point de vue économique et stratégique, mais leur approvisionnement fiable et sans entraves n’est pas garanti. L’UE publie tous les trois ans un rapport qui répertorie actuellement 30 minerais critiques qui sont extraites en partie ou majoritairement par le secteur ASM.",
+
+    "texte_accordion_titre4": "Qu’est-ce que les matières premières de conflits ?", 
+    "texte_accordion_contenu4": "Selon l’OCDE, les matières premières de conflit peuvent conduire à l’éclatement de conflits, les favoriser ou les prolonger. Par conséquent, l’État de droit des États souverains est sapé, la paix est menacée et de graves violations des droits de l’homme sont commises. Les matières premières de conflit peuvent mettre en péril la stabilité fragile qui prévaut, en particulier dans les régions à haut risque où les institutions publiques sont faibles. Raison pour laquelle l’OCDE a publié des lignes directrices sur le devoir de diligence à respecter lors de l’achat de matières premières telles que l’étain, le tantale, le tungstène et l’or (également appelées 3TG Tin, Tantalum, Tungsten and Gold) dans des régions à haut risque. Sur la base des principes directeurs de l’OCDE adoptés par la communauté internationale, la loi de l’union européenne sur les minerais de conflit ou la loi américaine Dodd-Frank (Sec. 1502) ont par exemple été adoptées.",
+
+    "texte_accordion_titre5": "Comment équilibrez-vous la confidentialité des données et la transparence dans les chaînes d'approvisionnement ?", 
+    "texte_accordion_contenu5": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre6": "Quel dlt utilise IotaOrigin ?", 
+    "texte_accordion_contenu6": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre7": "Qu'est-ce que la technologie blockchain ?", 
+    "texte_accordion_contenu7": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre8": "Comment puis-je participer au succès d'IotaOrigin ?", 
+    "texte_accordion_contenu8": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+
+    
+"--------------------------------- POUR LA SECTION DERNIERES NOUVELLES --------------------": ".",
+
+    "titre_newsroom": "Dernières Nouvelles",
+
+    "titre_texte_1_newsroom": "Examen de la loi allemande sur la chaîne d'approvisionnement potentiel.",
+    "texte_1_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_2_newsroom": "Les femmes dans l'exploitation minière artisanale et à petite échelle - les difficultés et l'espoire.",
+    "texte_2_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_3_newsroom": "L'utilisation du mercure dans l'extraction d'or artisanal et à petit échelle.",
+    "texte_3_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_4_newsroom": "Elementum",
+    "texte_4_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_5_newsroom": "Elementum",
+    "texte_5_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_6_newsroom": "Elementum",
+    "texte_6_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+   
+    "readMore": "Soma zaidi",
+
+
+"--------------------------------- POUR LA SECTION EQUIPE DU PROJET --------------------": ".",
+
+    "titre_equipe_projet": "Equipe du projet",
+    
+
+"--------------------------------- POUR LA SECTION FOOTER --------------------": ".",
+
+    "titre_footer": "Nous Contacter !",
+    "sous_titre_footer": "Comment pouvons-nous vous aider ?",
+
+    "texte_form_nom_footer": "Wako Sisi",
+    "texte_form_email_footer": "Wako Email",
+    "texte_form_sujet_footer": "Mada",
+    "texte_form_message_footer": "Ujumbe wako",
+    "texte_form_bouton_footer": "Kutuma",
+
+    "form_contact_name_error": "Tafadhali weka jina lako",
+    "form_contact_email_error": "Tafadhali weka barua pepe yako",
+    "form_contact_topic_error": "Tafadhali ingiza mada ya ujumbe",
+    "form_contact_message_error": "Tafadhali ingiza ujumbe wako",
+
+    "send_contact_success": "Ujumbe umetumwa kwa mafanikio !",
+    "form_fill_contact_error": "Tafadhali jaza sehemu zako ipasavyo.",
+    "connection_error": "Hakuna muunganisho wa mtandao !",
+  
+  
+    "texte_form_a_propos_footer": "INAYOTUHUSU",
+    "texte_form_service_footer": "HUDUMA",
+    "texte_form_avantage_footer": "FAIDA",
+    "texte_form_objectif_footer": "LENGO",
+    "texte_form_newroom_footer": "HABARI MPYA ZAIDI",
+    
+    "texte_form_droit_footer": "Haki zote zimehifadhiwa",    
+    "texte_form_termes_footer": "Termes Du Service",
+    "texte_form_condition_footer": "Tangazo la kisiri",
+
+    "texte_form_imprint_footer": "Imprint",
+    "texte_form_Privacy_policy_footer": "Privacy policy",
+
+
+    "-------------------------------------- COOKIE -----------------------------": ".",
+    
+    "cookie": {
+        "header": "Vidakuzi vilivyotumika kwenye tovuti!",
+        "message": "Tovuti hii hutumia vidakuzi ili kuhakikisha unapata matumizi bora kwenye tovuti yetu.",
+        "dismiss": "Naipata !",
+        "allow": "Ruhusu vidakuzi",
+        "deny": "Kukataa",
+        "link": "Jifunze zaidi",
+        "policy": "Sera ya Vidakuzi"
+    },
+
+    "cookie_role" : "Vidakuzi vina matumizi mengi: vinaweza kutumika kukariri kitambulisho chako cha mteja na tovuti ya mfanyabiashara, maudhui ya sasa ya rukwama yako ya ununuzi, lugha ya maonyesho ya ukurasa wa wavuti, kitambulisho kinachokuruhusu kufuatilia takwimu au madhumuni yako ya utangazaji, n.k.",
+
+
+
+    "--------------------------------- POUR LA PAGES IMPRINT --------------------": ".",
+
+    "Mentions_lEgales": "Mentions légales",
+
+
+    "--------------------------------- POUR LA PAGES POLICY --------------------": ".",
+
+    "confidentialite": "Déclaration de confidentialité"
+
+}

@@ -1,0 +1,699 @@
+
+     <!-- START THE SECTION 1: INTRO  -->
+     <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row d-flex align-items-top text-white">
+                <!-- START THE CONTENT FOR THE INTRO  -->
+                <div class="col-md-6 intros">
+                    <a>
+                        <img [src]="'data:' + introDatas[0].imageContentType + ';base64,' + introDatas[0].image" style="max-height: 200px;" alt="accueil image"/>
+                    </a>
+                    <h1 class="display-2">
+                        <span class="display-2--intro anim-elt-2">
+                            <span *ngIf="translate.currentLang === 'en'">{{introDatas[0].titreEn}}</span> 
+                            <span *ngIf="translate.currentLang === 'fr'">{{introDatas[0].titreFr}}</span> 
+                            <span *ngIf="translate.currentLang === 'ger'">{{introDatas[0].titreGer}}</span> 
+                            <span *ngIf="translate.currentLang === 'sw'">{{introDatas[0].titreSw}}</span> 
+                        </span>
+                        <span class="display-2--description lh-base anim-elt-3">
+                            <span *ngIf="translate.currentLang === 'en'">{{introDatas[0].sousTitreEn}}</span> 
+                            <span *ngIf="translate.currentLang === 'fr'">{{introDatas[0].sousTitreFr}}</span> 
+                            <span *ngIf="translate.currentLang === 'ger'">{{introDatas[0].sousTitreGer}}</span> 
+                            <span *ngIf="translate.currentLang === 'sw'">{{introDatas[0].sousTitreSw}}</span> 
+                        </span>
+                    </h1>
+                    <a href="#contact" class="cta-btn btn rounded-pill btn-rounded text-sm-center anim-elt-4">
+                        {{'texte_bouton_accueil'|translate}}
+                        <span><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+
+                <!-- START THE CONTENT FOR THE LOTTIE ANIMATION -->
+                <div class="col-md-6 lottie text-end">
+                    <app-animate-image></app-animate-image>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,64L34.3,58.7C68.6,53,137,43,206,74.7C274.3,107,343,181,411,186.7C480,192,549,128,617,138.7C685.7,149,754,235,823,245.3C891.4,256,960,192,1029,165.3C1097.1,139,1166,149,1234,133.3C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!-- START THE SECTION 2: ABOUT US -->
+    <section id="about-us" class="about-us">
+        <div class="container pt-5">
+            <div class="row text-center">
+                <h1 class="display-3 display-3-grandient fw-bold anim-elt-5">
+                    <span *ngIf="translate.currentLang === 'en'">{{aProposDatas[0].titreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{aProposDatas[0].titreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{aProposDatas[0].titreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{aProposDatas[0].titreSw}}</span> 
+                </h1>
+                <!-- <div class="heading-line mb-1"></div> -->
+            </div>
+
+            <!-- START THE DESCRIPTION CONTENT -->
+            <div class="row description pt-2 pb-5 mt-0 mb-3">
+                <div *ngIf="translate.currentLang === 'en'" [innerHTML]="aProposDatas[0].textParagraphe1En"></div>
+                <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="aProposDatas[0].textParagraphe1Fr"></div>
+                <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="aProposDatas[0].textParagraphe1Ger"></div>
+                <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="aProposDatas[0].textParagraphe1Sw"></div>
+
+                <!-- <p class="description--info anim-elt-6" >
+                    {{Paragraphe1_Apropos}}                   
+                </p> -->
+                <!-- <p class="description--info anim-elt-52">
+                    {{Paragraphe2_Apropos}} 
+                </p>
+                <p class="description--info anim-elt-53">
+                    {{Paragraphe3_Apropos}}
+                </p> -->
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L34.3,165.3C68.6,171,137,181,206,176C274.3,171,343,149,411,165.3C480,181,549,235,617,240C685.7,245,754,203,823,186.7C891.4,171,960,181,1029,186.7C1097.1,192,1166,192,1234,165.3C1302.9,139,1371,85,1406,58.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+
+
+    <!-- START THE SECTION 3 : SERVICE  -->
+    <section id="service" class="service display-4">
+        <div class="container">
+            <div class="row infos d-flex align-items-center">
+                <div class="col-md-6 display-4--img-box text-end">
+                    <img src="assets/images/mining-13.png" alt="" class="display-4--img w-75 anim-elt-7">
+                </div>
+                <div class="col-md-6 infos--content">
+                    <h1 class="display-3 display-3-grandient fw-bold display-4--title anim-elt-8">
+                        <span *ngIf="translate.currentLang === 'en'">{{serviceDatas[0].titreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{serviceDatas[0].titreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{serviceDatas[0].titreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{serviceDatas[0].titreSw}}</span>
+                    </h1>
+                    <!-- <div class="heading-line mb-1"></div> -->
+                    <h4 class="display-4--subheading anim-elt-9">
+                        <span *ngIf="translate.currentLang === 'en'">{{serviceDatas[0].sousTitreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{serviceDatas[0].sousTitreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{serviceDatas[0].sousTitreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{serviceDatas[0].sousTitreSw}}</span>
+                    </h4>
+                    <div class="display-4--description anim-elt-10">
+                        <div *ngIf="translate.currentLang === 'en'" [innerHTML]="serviceDatas[0].textParagraphe1En"></div>
+                        <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="serviceDatas[0].textParagraphe1Fr"></div>
+                        <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="serviceDatas[0].textParagraphe1Ger"></div>
+                        <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="serviceDatas[0].textParagraphe1Sw"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- START THE SECTION 4 : THE BENEFITS  -->
+    <section id="benefits" class="benefits display-4">
+        <div class="container">
+            <div class="row infos d-flex align-items-center">
+                <div class="col-md-6 infos--content">
+                    <h1 class="display-3 display-3-grandient fw-bold display-4--title anim-elt-11">
+                        <span *ngIf="translate.currentLang === 'en'">{{advantagesDatas[0].titreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{advantagesDatas[0].titreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{advantagesDatas[0].titreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{advantagesDatas[0].titreSw}}</span>
+                    </h1>
+                    <!-- <div class="heading-line mb-1"></div> -->
+                    <h4 class="display-4--subheading anim-elt-12">
+                        <span *ngIf="translate.currentLang === 'en'">{{advantagesDatas[0].sousTitreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{advantagesDatas[0].sousTitreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{advantagesDatas[0].sousTitreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{advantagesDatas[0].sousTitreSw}}</span>
+                    </h4>
+                    <div class="display-4--description">
+                        <!-- <ul class="benefits__list"> -->
+                            <!-- <li class="anim-elt-13"> -->
+                                <!-- <span class="item-icon"><i class="fas fa-check"></i></span> -->
+                                <span class="item-content">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="advantagesDatas[0].textParagraphe1En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="advantagesDatas[0].textParagraphe1FR"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="advantagesDatas[0].textParagraphe1Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="advantagesDatas[0].textParagraphe1Sw"></div>
+                                </span>
+                            <!-- </li> -->
+                            <!-- <li class="anim-elt-14">
+                                <span class="item-icon"><i class="fas fa-check"></i></span>
+                                <span class="item-content">
+                                    Trace conflict-free commodities while maintaining trade secrets, resulting in the establishment of free markets and better prices compared to closed-pipe models.
+                                </span>
+                            </li> -->
+                            <!-- <li class="anim-elt-15">
+                                <span class="item-icon"><i class="fas fa-check"></i></span>
+                                <span class="item-content">
+                                    Full compliance with international regulations.
+                                </span>
+                            </li>
+                            <li class="anim-elt-16">
+                                <span class="item-icon"><i class="fas fa-check"></i></span>
+                                <span class="item-content">
+                                    Enabling responsible and sustainable sourcing of conflict-free commodities and their marketing.
+                                </span>
+                            </li> -->
+                        <!-- </ul> -->
+                    </div>
+                </div>
+                <div class="col-md-6 display-4--img-box text-end">
+                    <img [src]="'data:' + advantagesDatas[0].imageContentType + ';base64,' + advantagesDatas[0].image" class="display-4--img w-75 anim-elt-17" alt="accueil image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START THE SECTION 5 : THE GOALS  -->
+    <section id="goals" class="goals display-4">
+        <div class="container">
+            <div class="row infos d-flex align-items-center">
+                <div class="col-md-6 display-4--img-box text-end">
+                    <img [src]="'data:' + objectifsDatas[0].imageContentType + ';base64,' + objectifsDatas[0].image" class="display-4--img w-75 anim-elt-18" alt="accueil image"/>
+                    <!-- <img src="assets/images/mining-2.png" alt="" class="display-4--img w-75 anim-elt-18"> -->
+                </div>
+                <div class="col-md-6 infos--content">
+                    <h1 class="display-3 display-3-grandient fw-bold display-4--title anim-elt-19">
+                        <span *ngIf="translate.currentLang === 'en'">{{objectifsDatas[0].titreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{objectifsDatas[0].titreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{objectifsDatas[0].titreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{objectifsDatas[0].titreSw}}</span>
+                    </h1>
+                    <!-- <div class="heading-line mb-1"></div> -->
+                    <h4 class="display-4--subheading anim-elt-20">
+                        <span *ngIf="translate.currentLang === 'en'">{{objectifsDatas[0].sousTitreEn}}</span> 
+                        <span *ngIf="translate.currentLang === 'fr'">{{objectifsDatas[0].sousTitreFr}}</span> 
+                        <span *ngIf="translate.currentLang === 'ger'">{{objectifsDatas[0].sousTitreGer}}</span> 
+                        <span *ngIf="translate.currentLang === 'sw'">{{objectifsDatas[0].sousTitreSw}}</span>
+                    </h4>
+                    <div class="display-4--description anim-elt-21">
+                        <div *ngIf="translate.currentLang === 'en'" [innerHTML]="objectifsDatas[0].textParagraphe1En"></div>
+                        <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="objectifsDatas[0].textParagraphe1Fr"></div>
+                        <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="objectifsDatas[0].textParagraphe1Ger"></div>
+                        <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="objectifsDatas[0].textParagraphe1Sw"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START SECTION 6 : THE FAQ  -->
+    <section id="faq" class="faq">
+        <svg class="faq-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,192C672,181,768,107,864,90.7C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div class="container pb-5 pt-3" *ngIf="FAQsDatas[0]">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold display-3-grandient anim-elt-22">
+                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreSw}}</span>
+                </h1>
+                <!-- <div class="heading-line"></div> -->
+                <!-- <p class="lead anim-elt-23">Most frequent questions and answers</p> -->
+            </div>
+            
+            
+            <!-- ACCORDION CONTENT  -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordion-faq1">
+                        <div class="accordion-item shadow mb-3 anim-elt-24">
+                            <h2 class="accordion-header" id="headingOne-faq1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-faq1" aria-expanded="false" aria-controls="collapseOne-faq1">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion1En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion1Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion1Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion1Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne-faq1" class="accordion-collapse collapse" aria-labelledby="headingOne-faq1" data-bs-parent="#accordion-faq1">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion1En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion1Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion1Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion1Sw"></div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-25">
+                            <h2 class="accordion-header" id="headingTwo-faq1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-faq1" aria-expanded="false" aria-controls="collapseTwo-faq1">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion2En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion2Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion2Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion2Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo-faq1" class="accordion-collapse collapse" aria-labelledby="headingTwo-faq1" data-bs-parent="#accordion-faq1">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion2En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion2Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion2Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion2Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-26">
+                            <h2 class="accordion-header" id="headingThree-faq1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-faq1" aria-expanded="false" aria-controls="collapseThree-faq1">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion3En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion3Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion3Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion3Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree-faq1" class="accordion-collapse collapse" aria-labelledby="headingThree-faq1" data-bs-parent="#accordion-faq1">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion3En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion3Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion3Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion3Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-27">
+                            <h2 class="accordion-header" id="headingFour-faq1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-faq1" aria-expanded="false" aria-controls="collapseFour-faq1">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion4En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion4Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion4Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion4Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour-faq1" class="accordion-collapse collapse" aria-labelledby="headingFour-faq1" data-bs-parent="#accordion-faq1">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion4En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion4Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion4Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion4Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="accordion" id="accordion-faq2">
+                        <div class="accordion-item shadow mb-3 anim-elt-28">
+                            <h2 class="accordion-header" id="headingOne-faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-faq2" aria-expanded="false" aria-controls="collapseOne-faq2">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion5En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion5Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion5Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion5Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne-faq2" class="accordion-collapse collapse" aria-labelledby="headingOne-faq2" data-bs-parent="#accordion-faq2">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion5En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion5Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion5Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion5Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-29">
+                            <h2 class="accordion-header" id="headingTwo-faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-faq2" aria-expanded="false" aria-controls="collapseTwo-faq2">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion6En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion6Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion6Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion6Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo-faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo-faq2" data-bs-parent="#accordion-faq2">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion6En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion6Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion6Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion6Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-30">
+                            <h2 class="accordion-header" id="headingThree-faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-faq2" aria-expanded="false" aria-controls="collapseThree-faq2">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion7En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion7Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion7Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion7Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree-faq2" class="accordion-collapse collapse" aria-labelledby="headingThree-faq2" data-bs-parent="#accordion-faq2">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion7En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion7Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion7Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion7Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3 anim-elt-31">
+                            <h2 class="accordion-header" id="headingFour-faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-faq2" aria-expanded="false" aria-controls="collapseFour-faq2">
+                                    <span *ngIf="translate.currentLang === 'en'">{{FAQsDatas[0].titreAccordion8En}}</span> 
+                                    <span *ngIf="translate.currentLang === 'fr'">{{FAQsDatas[0].titreAccordion8Fr}}</span> 
+                                    <span *ngIf="translate.currentLang === 'ger'">{{FAQsDatas[0].titreAccordion8Ger}}</span> 
+                                    <span *ngIf="translate.currentLang === 'sw'">{{FAQsDatas[0].titreAccordion8Sw}}</span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour-faq2" class="accordion-collapse collapse" aria-labelledby="headingFour-faq2" data-bs-parent="#accordion-faq2">
+                                <div class="accordion-body">
+                                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="FAQsDatas[0].textAccordion8En"></div>
+                                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="FAQsDatas[0].textAccordion8Fr"></div>
+                                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="FAQsDatas[0].textAccordion8Ger"></div>
+                                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="FAQsDatas[0].textAccordion8Sw"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <svg class="faq-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,192C672,181,768,107,864,90.7C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+
+    <!-- START THE TEAM SECTION  -->
+    <!-- <section id="team" class="team text-center pt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <h1 class="display-3 display-3-grandient fw-bold anim-elt-32">Our Team</h1>
+                <div class="heading-line mb-1"></div>/////
+                <h4 class="subheading anim-elt-33">Discover who's behind the project.</h4>
+            </div>
+
+            Start the team slider ////
+            <div class="row position-relative">
+                <div id="team-slider" class="owl-carousel owl-theme">
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Zain Knob</h4>
+                                <p class="text-muted">Mechanical Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t2.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Syndia Lee</h4>
+                                <p class="text-muted">Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t1.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Noel Flantier</h4>
+                                <p class="text-muted">Joomla Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Bobby Doe</h4>
+                                <p class="text-muted">Street Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Bobby Doe</h4>
+                                <p class="text-muted">Street Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member-slide">
+                        <div class="img-block mb-5">
+                            <img src="assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                            <div class="content mt-2">
+                                <h4>Zain Knob</h4>
+                                <p class="text-muted">Mechanical Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    
+    <!-- START THE SECTION 7 : THE NEWSROOM  -->
+    <section id="newsroom" class="newsroom">
+        <div class="container">
+            <div class="row pt-3 pb-3 text-center">
+                <h1 class="display-3 fw-bold display-3-grandient anim-elt-35">
+                    <span *ngIf="translate.currentLang === 'en'">{{dernieresNouvellesDatas[0].titreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{dernieresNouvellesDatas[0].titreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{dernieresNouvellesDatas[0].titreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{dernieresNouvellesDatas[0].titreSw}}</span>
+                </h1>
+                <!-- <div class="heading-line"></div> -->
+            </div>
+            <div class="row pt-3 pb-3">
+                <!-- Start the news slider  -->
+                <div id="news-slider" class="owl-carousel">
+                    
+                    <div class="post-slide shadow">
+                        <div class="post-img">
+                            <a href="https://datenmarktplatz.nrw/" target="_blank">
+                                <img [src]="'data:' + dernieresNouvellesDatas[0].imageSlide1ContentType + ';base64,' + dernieresNouvellesDatas[0].imageSlide1" alt="accueil image"/>
+                            </a>
+                        </div>
+                        <div class="post-content">
+                            <!-- <h3 class="post-title"><a href="https://datenmarktplatz.nrw/" target="_blank">IotaOrigin UG joins the Marktplatz.NRW</a></h3>
+                            <p class="post-description">
+                                IotaOrigin UG joins the Marktplatz.NRW as Use Case Leader in the field of logistics to establish Smart City solutions in NRW. More information at <a href="https://datenmarktplatz.nrw/" target="_blank">Datenmarktplatz.NRW</a>.
+                            </p>
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i> 30.01.2021</li>
+                            </ul> -->
+                            <div *ngIf="translate.currentLang === 'en'" [innerHTML]="dernieresNouvellesDatas[0].textSlide1En"></div>
+                            <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="dernieresNouvellesDatas[0].textSlide1Fr"></div>
+                            <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="dernieresNouvellesDatas[0].textSlide1Ger"></div>
+                            <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="dernieresNouvellesDatas[0].textSlide1Sw"></div>
+                            <a href="{{dernieresNouvellesDatas[0].readMore1}}" target="_blank" class="read-more" >{{'readMore'|translate}}</a>
+                        </div>
+                    </div>
+ 
+                    <div class="post-slide shadow">
+                        <div class="post-img">
+                            <a href="https://datenmarktplatz.nrw/" target="_blank">
+                                <img [src]="'data:' + dernieresNouvellesDatas[0].imageSlide1ContentType + ';base64,' + dernieresNouvellesDatas[0].imageSlide2" alt="accueil image"/>
+                            </a>
+                        </div>
+                        <div class="post-content">
+                            <!-- <h3 class="post-title"><a href="https://datamadeingermany.de/" target="_blank">IotaOrigin UG joins the DataMadeInGermany consortium</a></h3>
+                            <p class="post-description">
+                                IotaOrigin UG joins the DataMadeInGermany consortium as an associated partner to create a GaiaX and DSVGO compliant data space for the German economy. More information at <a href="https://datamadeingermany.de/" target="_blank">DataMadeInGermany</a>.
+                            </p>
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i> 07.04.2021</li>
+                            </ul> -->
+                            <div *ngIf="translate.currentLang === 'en'" [innerHTML]="dernieresNouvellesDatas[0].textSlide2En"></div>
+                            <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="dernieresNouvellesDatas[0].textSlide2Fr"></div>
+                            <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="dernieresNouvellesDatas[0].textSlide2Ger"></div>
+                            <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="dernieresNouvellesDatas[0].textSlide2Sw"></div>
+                            <a href="{{dernieresNouvellesDatas[0].readMore2}}" target="_blank" class="read-more">{{'readMore'|translate}}</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide shadow">
+                        <div class="post-img">
+                            <img [src]="'data:' + dernieresNouvellesDatas[0].imageSlide1ContentType + ';base64,' + dernieresNouvellesDatas[0].imageSlide3" alt="accueil image"/>
+                        </div>
+                        <div class="post-content">
+                            <!-- <h3 class="post-title"><a href="https://www.bmwi.de/Redaktion/DE/Artikel/Innovation/igp.html" target="_blank">IotaOrigin UG is funded by the German Federal Ministry of Economics and Climate Protection</a></h3>
+                            <p class="post-description">
+                                IotaOrigin UG is funded by the German Federal Ministry of Economics and Climate Protection as part of the Innovation Program for Business Models and Pioneering Solutions. More information at <a href="https://www.bmwi.de/Redaktion/DE/Artikel/Innovation/igp.html" target="_blank">Innovationprogramms für Geschäftsmodelle und Pionierlösungen</a>.
+                            </p>
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i> 01.05.2021</li>
+                            </ul> -->
+                            <div *ngIf="translate.currentLang === 'en'" [innerHTML]="dernieresNouvellesDatas[0].textSlide3En"></div>
+                            <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="dernieresNouvellesDatas[0].textSlide3Fr"></div>
+                            <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="dernieresNouvellesDatas[0].textSlide3Ger"></div>
+                            <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="dernieresNouvellesDatas[0].textSlide3Sw"></div>
+                            <a href="{{dernieresNouvellesDatas[0].readMore3}}" target="_blank" class="read-more">{{'readMore'|translate}}</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide shadow">
+                        <div class="post-img">
+                            <img [src]="'data:' + dernieresNouvellesDatas[0].imageSlide1ContentType + ';base64,' + dernieresNouvellesDatas[0].imageSlide4" alt="accueil image"/>
+                        </div>
+                        <div class="post-content">
+                            <!-- <h3 class="post-title"><a href="https://www.exzellenz-start-up-center.nrw/projekte/rwth_aachen" target="_blank">IotaOrigin UG joins the RWTH Incubation Program of RWTH Innovation GmbH</a></h3>
+                            <p class="post-description">
+                                IotaOrigin UG joins the RWTH Incubation Program of RWTH Innovation GmbH as part of the funding initiative "Exzellenz Start-up Center.NRW". More information at <a href="https://www.exzellenz-start-up-center.nrw/projekte/rwth_aachen" target="_blank">Exzellenz-Start-Up-Center.NRW</a> and <a href="https://www.rwth-innovation.de/de/" target="_blank">RWTH-Innovation</a>.
+                            </p>
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i> 01.10.2021</li>
+                            </ul> -->
+                            <div *ngIf="translate.currentLang === 'en'" [innerHTML]="dernieresNouvellesDatas[0].textSlide4En"></div>
+                            <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="dernieresNouvellesDatas[0].textSlide4Fr"></div>
+                            <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="dernieresNouvellesDatas[0].textSlide4Ger"></div>
+                            <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="dernieresNouvellesDatas[0].textSlide4Sw"></div>
+                            <a href="{{dernieresNouvellesDatas[0].readMore4}}" target="_blank" class="read-more">{{'readMore'|translate}}</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- #end the news slilder -->
+            </div>
+        </div>
+    </section>
+
+
+<!-- START THE SECTION 8 : THE FOOTER  -->
+<section id="footer" class="footer text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,176C213.3,192,267,160,320,144C373.3,128,427,128,480,154.7C533.3,181,587,235,640,229.3C693.3,224,747,160,800,138.7C853.3,117,907,139,960,138.7C1013.3,139,1067,117,1120,138.7C1173.3,160,1227,224,1280,208C1333.3,192,1387,96,1413,48L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6 get-in-touch text-center">
+                <h3 class="get-in-touch--title fw-bold anim-elt-37">
+                    <span *ngIf="translate.currentLang === 'en'">{{footerDatas[0].titreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{footerDatas[0].titreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{footerDatas[0].titreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{footerDatas[0].titreSw}}</span>
+                </h3>
+                <p class="lead get-in-touch--subtitle anim-elt-38">
+                    <span *ngIf="translate.currentLang === 'en'">{{footerDatas[0].sousTitreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{footerDatas[0].sousTitreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{footerDatas[0].sousTitreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{footerDatas[0].sousTitreSw}}</span>
+                </p>
+            </div>
+            
+            <div class="col-12 col-lg-6">
+                <div id="contact" class="form w-100 pb-3">
+                    <form [formGroup]="contacForm"  (ngSubmit)="onSubmit()" class="row">
+                        
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <input name="nom" formControlName="name"  
+                            id="name"  placeholder="{{'texte_form_nom_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-47  contact-text" required>
+                            <div *ngIf="contacForm.controls.name.errors && contacForm.controls.name.touched" class="errorform">
+                                <span>{{'form_contact_name_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <input name="email" formControlName="email"  
+                            id="email"  placeholder="{{'texte_form_email_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-58  contact-text" required>
+                            <div *ngIf="contacForm.controls.email.errors && contacForm.controls.email.touched" class="errorform">
+                                <span>{{'form_contact_email_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mb-3">
+                            <input name="inputSubject" formControlName="topic"  
+                            id="topic"  placeholder="{{'texte_form_sujet_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-59 contact-text" required>
+                            <div *ngIf="contacForm.controls.topic.errors && contacForm.controls.topic.touched" class="errorform">
+                                <span>{{'form_contact_topic_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mb-3">
+                            <textarea name="message" formControlName="message" 
+                            id="message" rows="3" placeholder="{{'texte_form_message_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-50  contact-text" required> 
+                            </textarea>
+                            <div *ngIf="contacForm.controls.message.errors && contacForm.controls.message.touched" class="errorform">
+                                <span>{{'form_contact_message_error'|translate}}.</span>
+                            </div>
+                        </div>
+                        <div class="text-center d-grid mt-1">
+                            <button type="submit" class="rounded-pill btn-rounded anim-elt-51">
+                                {{'texte_form_bouton_footer'|translate}}
+                                <span><i class="fas fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </form>   
+                </div>
+
+                <div class="alert-style">
+                  <div *ngIf="isContactSuccess">
+                    <ngb-alert type ="success" *ngIf="closed" (click)="fermer()">{{'send_contact_success'|translate}}</ngb-alert>
+                  </div> 
+                  <div *ngIf="isContactFormErrror">
+                    <ngb-alert type ="danger" *ngIf="closed" (click)="fermer()">{{'form_fill_contact_error'|translate}}</ngb-alert>
+                  </div>
+                  <div *ngIf="isConnectionError">
+                    <ngb-alert type ="danger" *ngIf="closed" (click)="fermer()">{{'connection_error'|translate}}</ngb-alert>
+                  </div>                  
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="row pt-3 pb-3 d-flex align-items-center">
+            <div class="col-12 col-md-4 align-items-center text-center">
+                <a *ngIf="footerDatas[0]" class="brand">
+                    <img [src]="'data:' + footerDatas[0].logoContentType + ';base64,' + footerDatas[0].logo" alt="" class="brand-logo align-middle anim-elt-39">
+                </a>
+            </div>
+            <div class="col-12 col-md-8">
+                <ul class="nav footer-menu align-middle">
+                    <li class="nav-item anim-elt-40">
+                      <a class="nav-link active" aria-current="page" href="#about-us">{{'texte_form_a_propos_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-41">
+                      <a class="nav-link" href="#service">{{'texte_form_service_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-42">
+                      <a class="nav-link" href="#benefits">{{'texte_form_avantage_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-43">
+                      <a class="nav-link" href="#goals">{{'texte_form_objectif_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-44">
+                      <a class="nav-link" href="#newsroom">{{'texte_form_newroom_footer'|translate}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-2 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="col-sm-12 col-md-8">
+                <ul class="social-media-links justify-content-center">
+                    <li class="social-item">
+                        <a href="{{footerDatas[0].discordLink}}" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
+                        <a href="{{footerDatas[0].twitterlink}}" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-5 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 text-center copyright">
+                <p class="lead copyright--content text-white">© 2022 IotaOrigin UG. {{'texte_form_droit_footer'|translate}}</p>
+            </div>
+            <div class="col-sm-12 col-md-8 text-center text-white terms-menu">
+                <ul class="nav footer-menu terms-menu--content align-middle">
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="goToConfidentialite()"  href="Javascript:void(0)">{{'texte_form_Privacy_policy_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="goToLegal()" href="Javascript:void(0)">{{'texte_form_imprint_footer'|translate}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

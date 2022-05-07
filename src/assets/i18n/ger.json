@@ -1,0 +1,177 @@
+{
+    "lang": "Langage", 
+    "fr": "FR",
+    "french": "Français",
+    "en": "EN",
+    "english": "Anglais",
+    "profil": "Profil",
+    "dashboard": "Tableau de Bord",
+
+    
+
+
+"---------------------------------  POUR LE MENU --------------------": ".",
+   
+    "accueil": "Startseite",
+    "a_propos": "In Bezug auf",
+    "service": "Service",
+    "avantage": "Vorteile",
+    "objectif": "Ziel",
+    "faq": "Häufig gestellte Fragen",
+    "dernieres_nouvelles": "Neueste Nachrichten",
+    "equipe_projet": "Projektteam",
+    "contact": "Kontakt",
+   
+
+"--------------------------------- POUR LA SECTION ACCUEIL --------------------": ".",
+
+    "titre_accueil": "Vertrauenswürdige Ressourcen.",
+    "texte_accueil": "Sichere, nachvollziehbare und digitale Lieferketten für Ihre Waren.",
+    "texte_bouton_accueil": "Kontaktiere uns",
+ 
+"--------------------------------- POUR LA SECTION A PROPOS --------------------": ".",
+
+    "titre_a_propos": "In Bezug auf",
+    "texte_a_propos1": "Im Hinblick auf eine wirtschaftlich und ökologisch notwendige Energiewende, die politisch und öffentlich verfolgt wird, werden neue Technologien zur Energieerzeugung und Speicherung von Kohlendioxid eingesetzt. Konfliktfreie Rohstoffe sind essenziell für die technische Umsetzung der Energiewende.",    
+    "texte_a_propos2": "Gleichzeitig wird die Gewinnung von Rohstoffen oft mit instabilen und von Konflikten geplagten Herkunftsländern in Verbindung gebracht, weshalb regulatorische Maßnahmen den Import dieser Rohstoffe zunehmend einschränken. Die Umsetzung der Vorschriften wirkt sich jedoch nachteilig auf die lokale Bevölkerung aus, die auf Kleinbergbau (Artisanal and Small-Scale Mining) angewiesen ist. Die Umsetzung wirkt sich auf Investitionen aus und schränkt die nachhaltige Gewinnung von Grundrohstoffen und deren Marktzugang ein. Dies führt zur Abwanderung des Kleinbergbausektors in Richtung ungebremsten Raubbaus.",    
+    "texte_a_propos3": "Die IotaOrigin UG adressiert die genannten wirtschaftlichen und sozialen Themen. Dazu gehört die menschenrechts- und umweltverträgliche Gewinnung von Rohstoffen im Einklang mit den OECD-Richtlinien zur Sorgfaltspflicht und damit zusammenhängenden internationalen Vorschriften. Ziel ist es, die Energiewende ethisch vertretbar zu gestalten und gleichzeitig die UN SDGs (Sustainable Development Goals) durch die Unterstützung der lokalen Bevölkerung zu erfüllen.",    
+
+"--------------------------------- POUR LA SECTION SERVICE --------------------": ".",
+
+"titre_service": "Service",
+"sous_titre_service": "Was ist das Besondere an unserem Angebot ?",
+"texte_service": "IotaOrigin ist eine internationale Handelsplattform für konfliktfreie Rohstoffe und Rohstoffe. Darüber hinaus ermöglicht IotaOrigin dank der Distributed-Ledger-Technologie die Rückverfolgung von nicht widersprüchlichen Rohstoffen über eine Anwendung. Dies ermöglicht es allen Akteuren in der Lieferkette, die „OECD Due Diligence Guidelines for Promoting Responsible Supply Chains for Minerals from Conflict-Affected and High-Risk Areas“ einzuhalten und gleichzeitig Handelsvereinbarungen zwischen diesen Akteuren der Lieferkette vertraulich zu behandeln.",
+       
+
+"--------------------------------- POUR LA SECTION AVANTAGES --------------------": ".",
+
+"titre_avantages": "Vorteile",
+"sous_titre_avantages": "Wovon können Sie profitieren ?",
+"texte_avantages1": "Digitale und freie Rückverfolgbarkeit konfliktfreier Rohstoffe und Waren ohne Lizenzkosten, mit der Möglichkeit der Monetarisierung und Optimierung von Daten in Ihren Lieferketten.",
+"texte_avantages2": "Verfolgung konfliktfreier Rohstoffe unter Einhaltung von Handelsabkommen, wodurch die Etablierung freier Märkte sichergestellt und im Vergleich zu Closed-Pipe-Modellen bessere Preise erzielt werden.",
+"texte_avantages3": "Einhaltung internationaler Vorschriften",
+"texte_avantages4": "Ermöglichen Sie eine verantwortungsvolle und nachhaltige Beschaffung von konfliktfreien Rohstoffen und deren Vermarktung.",
+
+
+
+"--------------------------------- POUR LA SECTION OBJECTIFS --------------------": ".",
+
+"titre_objectifs": "Ziele",
+"sous_titre_objectifs": "Eine ziemliche Reise",
+"texte_objectifs": "Nachhaltige und verantwortungsvolle Beschaffung ist ein Schritt zur Erreichung der Ziele der Vereinten Nationen für nachhaltige Entwicklung. Die IotaOrigin UG möchte mit ihren Produkten einen Beitrag zur Erreichung dieser Ziele leisten und einen Schritt zu mehr Bewusstsein beim Einkauf von Rohstoffen gehen und gleichzeitig die lokale Bevölkerung unterstützen.",
+
+
+
+"--------------------------------- POUR LA SECTION FAQ --------------------": ".",
+
+    "titre_faq": "Häufig gestellte Fragen",
+    "sous_titre_faq": "Häufig gestellte Fragen und Antworten",
+
+    "texte_accordion_titre1": "Was ist ASM ?", 
+    "texte_accordion_contenu1": "Die Gesamtzahl der im Artisanal Small Scale Mining (Artisanal Small Scale Mining) tätigen Bergleute hat sich seit 1993 auf rund 45 Millionen Menschen verdreifacht. Zudem hängen zwischen 60 und 150 Millionen Menschen indirekt von den Einnahmen aus dem Kleinbergbau ab. Etwa 90 % der handwerklichen Goldminenarbeiter arbeiten im Kleinbergbau und tragen 10 % zur jährlichen Goldproduktion der Welt bei. Der informelle Kleinbergbau könnte durch weitere Formalisierung zur Erreichung der SDGs beitragen.",
+
+    "texte_accordion_titre2": "Was bedeuten die SDGs ?", 
+    "texte_accordion_contenu2": "Die Formalisierung des derzeit informellen Handwerks- und Kleinbergbausektors kann auch zur Erreichung der folgenden Ziele beitragen: menschenwürdige Arbeit und nachhaltiges Wirtschaftswachstum, Gesundheit und Wohlbefinden, Partnerschaften zur Erreichung der Ziele für nachhaltige Entwicklung, Schutz des Lebens unter Wasser und an Land sowie die Gleichstellung der Geschlechter. Die Sustainable Development Goals (SDGs) beinhalten 17 Ziele zur Entwicklung einer nachhaltigen Zukunft. Die SDGs wurden 2015 von der Generalversammlung der Vereinten Nationen festgelegt und sollen bis 2030 erreicht werden. Der handwerkliche und Kleinbergbausektor kann laut UNDP einen wesentlichen Beitrag zur Erreichung dieser Ziele leisten. Dazu gehören Beiträge zur Armutsbekämpfung, Bildung, nachhaltige Städte und Gemeinden, erneuerbare Energien, Innovation und Infrastruktur.",
+
+    "texte_accordion_titre3": "Was bedeuten kritische Rohstoffe ?", 
+    "texte_accordion_contenu3": "Kritische Rohstoffe beziehen sich auf Materialien, die für nachhaltigen Fortschritt und die Entwicklung neuer Technologien unerlässlich sind. Sie sind aus wirtschaftlicher und strategischer Sicht wichtig, aber ihre zuverlässige und uneingeschränkte Versorgung ist nicht gewährleistet. Die EU veröffentlicht alle drei Jahre einen Bericht, der derzeit 30 kritische Mineralien auflistet, die teilweise oder überwiegend vom Kleinbergbausektor abgebaut werden.",
+
+    "texte_accordion_titre4": "Was sind die Rohstoffe des Konflikts ?", 
+    "texte_accordion_contenu4": "Konfliktrohstoffe können laut OECD zum Ausbruch von Konflikten führen, diese fördern oder verlängern. Dadurch wird die Rechtsstaatlichkeit souveräner Staaten untergraben, der Frieden bedroht und schwere Menschenrechtsverletzungen begangen. Konfliktrohstoffe können die vorherrschende fragile Stabilität gefährden, insbesondere in Hochrisikoregionen mit schwachen staatlichen Institutionen. Aus diesem Grund hat die OECD Leitlinien zur einzuhaltenden Sorgfalt beim Einkauf von Rohstoffen wie Zinn, Tantal, Wolfram und Gold (auch 3TG-Zinn, Tantal, Wolfram und Gold genannt) in Hochrisikoregionen veröffentlicht. Basierend auf den von der internationalen Gemeinschaft verabschiedeten OECD-Richtlinien wurden beispielsweise das Konfliktmineraliengesetz der Europäischen Union oder das amerikanische Dodd-Frank-Gesetz (Sec. 1502) verabschiedet.",
+
+    "texte_accordion_titre5": "Wie bringen Sie Datenschutz und Transparenz in Lieferketten in Einklang ?", 
+    "texte_accordion_contenu5": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre6": "Welcher dlt verwendet IotaOrigin ?", 
+    "texte_accordion_contenu6": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre7": "Was ist Blockchain-Technologie ?", 
+    "texte_accordion_contenu7": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre8": "Wie kann ich am Erfolg von IotaOrigin teilhaben ?", 
+    "texte_accordion_contenu8": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+
+    
+"--------------------------------- POUR LA SECTION DERNIERES NOUVELLES --------------------": ".",
+
+    "titre_newsroom": "Neueste Nachrichten",
+
+    "titre_texte_1_newsroom": "Überprüfung möglicher deutscher Lieferkettengesetze.",
+    "texte_1_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_2_newsroom": "Frauen im Klein- und Kleinbergbau – Herausforderungen und Hoffnungen.",
+    "texte_2_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_3_newsroom": "Die Verwendung von Quecksilber im handwerklichen und kleinen Goldbergbau.",
+    "texte_3_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_4_newsroom": "Elementum",
+    "texte_4_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_5_newsroom": "Elementum",
+    "texte_5_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_6_newsroom": "Elementum",
+    "texte_6_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+   
+    "readMore": "Weiterlesen",
+
+"--------------------------------- POUR LA SECTION EQUIPE DU PROJET --------------------": ".",
+
+    "titre_equipe_projet": "Projektteam",
+    
+
+"--------------------------------- POUR LA SECTION FOOTER --------------------": ".",
+
+    "titre_footer": "Kontaktiere uns !",
+    "sous_titre_footer": "Wie können wir Ihnen helfen ?",
+
+    "texte_form_nom_footer": "Dein Name",
+    "texte_form_email_footer": "Deine E-Maill",
+    "texte_form_sujet_footer": "Thema",
+    "texte_form_message_footer": "Deine Nachricht",
+    "texte_form_bouton_footer": "Senden",
+
+    "form_contact_name_error": "Bitte geben Sie Ihren Namen ein",
+    "form_contact_email_error": "Geben Sie bitte Ihre Email-Adresse ein",
+    "form_contact_topic_error": "Bitte geben Sie den Betreff der Nachricht ein",
+    "form_contact_message_error": "Bitte gib deine Nachricht ein",
+
+    "send_contact_success": "Nachricht erfolgreich gesendet !",
+    "form_fill_contact_error": "Bitte füllen Sie Ihre Felder korrekt aus.",
+    "connection_error": "Keine Internetverbindung !",
+  
+  
+    "texte_form_a_propos_footer": "IN BEZUG AUF",
+    "texte_form_service_footer": "SERVICE",
+    "texte_form_avantage_footer": "VORTEILE",
+    "texte_form_objectif_footer": "TORE",
+    "texte_form_newroom_footer": "NACHRICHTEN",
+    
+    "texte_form_droit_footer": "Alle Rechte vorbehalten.",
+    "texte_form_lecal_footer": "Gesetzlich",
+    "texte_form_termes_footer": "Nutzungsbedingungen",
+    "texte_form_condition_footer": "Nutzungsbedingungen",
+    "texte_form_politique_footer": "Cookie-Richtlinien",
+
+    "texte_form_imprint_footer": "Impressum",
+    "texte_form_Privacy_policy_footer": "Datenschutzerklärung",
+
+
+    "-------------------------------------- COOKIE -----------------------------": ".",
+    
+    "cookie": {
+        "header": "Auf der Website verwendete Cookies!",
+        "message": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten.",
+        "dismiss": "Ich verstehe es !",
+        "allow": "Cookies zulassen",
+        "deny": "Ablehnen",
+        "link": "Mehr erfahren",
+        "policy": "Cookie-Richtlinie"
+    },
+
+    "cookie_role" : "Cookies haben mehrere Verwendungszwecke: Sie können verwendet werden, um Ihre Kundenkennung auf einer Händlerseite, den aktuellen Inhalt Ihres Einkaufswagens, die Anzeigesprache der Webseite, eine Kennung zu speichern, die es Ihnen ermöglicht, Ihr Surfen zu statistischen oder Werbezwecken zu verfolgen usw."
+
+
+}

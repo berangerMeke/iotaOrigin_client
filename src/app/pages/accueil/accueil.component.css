@@ -1,0 +1,150 @@
+.titre {
+    color: #004793;
+    font-family: "Kanit", Sans-serif;
+    font-size: 350%;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.titre2 {
+    color: #4a4c4e;
+    font-size: 150%;
+}
+
+.a-propos-text {
+    font-size: 110%;
+    margin-bottom: 0%;
+}
+
+.a-service-text {
+    font-size: 110%;
+    margin-bottom: 0%;
+}
+
+.panel-heading {
+    position: relative;
+  }
+  .panel-heading[data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e072"; /* "play" icon */
+    position: absolute;
+    color: #b0c5d8;
+    font-size: 18px;
+    line-height: 22px;
+    right: 20px;
+    top: calc(50% - 10px);
+  
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+    transform:         rotate(-90deg);
+  }
+  .panel-heading[data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform:    rotate(90deg);
+    -ms-transform:     rotate(90deg);
+    -o-transform:      rotate(90deg);
+    transform:         rotate(90deg);
+  }
+
+
+  .acordion-title {
+      color: #004793;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: left;
+  }
+
+  .accordion-text {
+    text-align: justify; 
+    font-size: 15px;
+    color: #252627;
+  }
+
+  .subtitle {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    color:rgb(53, 50, 50); 
+    font-weight: bold;
+
+  }
+
+  .titre-footer {
+    color: white;
+    font-family: "Kanit", Sans-serif;
+    font-size: 220%;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 17%;
+  }
+
+  .form-group {
+     margin-bottom: 0px !important; 
+}
+
+.foot-text2 {
+  font-size: 102%;
+  font-weight: 800;
+  margin-top: 2%;
+}
+
+.a-style {
+  color: white;
+}
+
+.foot-small {
+  color: white;
+  font-size: 90%;
+}
+
+.equipe-title {
+  color: #004793;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.equipe-subtitle {
+  color: rgb(66, 66, 66);
+  text-align: center;
+  font-size: 110%;
+  
+}
+
+
+
+
+.slick-slider {
+  width: 88%;
+  margin: auto;
+  background: rgb(14, 13, 13);
+}
+
+body .slick-prev, 
+body .slick-next {
+  height: 45px;
+  width: 40px;
+  background: grey !important;
+  z-index: 100;
+}
+
+
+@media (min-width: 992px) {
+.display-2--intro {
+    font-size: 3.5rem !important;
+    word-wrap: break-word;
+}
+}
+
+
+.alert-style {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact-text {
+  font-size: 100% !important;
+}

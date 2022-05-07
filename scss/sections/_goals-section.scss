@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+.goals {
+    background-color: $white;
+    padding: 5rem 0 8rem;
+
+    @include media-breakpoint-down(md) {
+        padding: 5rem 0;
+    }
+}

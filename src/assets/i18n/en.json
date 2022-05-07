@@ -1,0 +1,177 @@
+{
+    "lang": "Langage", 
+    "fr": "FR",
+    "french": "Français",
+    "en": "EN",
+    "english": "Anglais",
+    "profil": "Profil",
+    "dashboard": "Tableau de Bord",
+
+    
+
+
+"---------------------------------  POUR LE MENU --------------------": ".",
+   
+    "accueil": "Home",
+    "a_propos": "About us",
+    "service": "Service",
+    "avantage": "Avantages",
+    "objectif": "Ziele Goals",
+    "faq": "FAQ",
+    "dernieres_nouvelles": "Newsroom",
+    "equipe_projet": "Project team",
+    "contact": "Contact",
+   
+
+"--------------------------------- POUR LA SECTION ACCUEIL --------------------": ".",
+
+    "titre_accueil": "Trusted resources",
+    "texte_accueil": "Secure, traceable and digital supply chains for your goods. ",
+    "texte_bouton_accueil": "Contact us",
+ 
+"--------------------------------- POUR LA SECTION A PROPOS --------------------": ".",
+
+    "titre_a_propos": "About us",
+    "texte_a_propos1": "In the light of an economically and ecologically necessary as well as politically and publicly pursued energy transition, new technologies for energy production and carbon dioxide containment are becoming established. Conflict-free commodities are indispensable for the technical implementation of the energy transition.",    
+    "texte_a_propos2": "At the same time, commodities extraction is often associated with unstable and conflict-ridden countries of origin, which is why regulatory measures are increasingly restricting the import of these commodities. However, the implementation of the regulations has a challenging effect on the local population, which is dependent on ASM (Artisanal Small-Scale Mining). The implementation affects investments and hinders the sustainable extraction of critical commodities and their access to the market. This leads to the migration of the ASM sector into uncontrolled overexploitation.",    
+    "texte_a_propos3": "IotaOrigin UG addresses the mentioned economic and socially relevant issues. These include the extraction of commodities in a way that is in accordance with human rights and environmentally compatible, in compliance with the OECD Due Diligence Guidelines and the international regulations based on them. The aim is to ensure that the energy transition is ethically responsible and, at the same time, to fulfil the SDGs (Sustainable Development Goals) of the UN by supporting the local population.",    
+
+
+"--------------------------------- POUR LA SECTION SERVICE --------------------": ".",
+
+    "titre_service": "Service",
+    "sous_titre_service": "What is special about our offer ?",
+    "texte_service": "IotaOrigin is a platform for international trade in conflict-free commodities and goods. Furthermore, IotaOrigin enables the traceability of conflict-free commodities using distributed ledger technology within an application. This allows all parties in the supply chain to comply with the “OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas” without disclosing trade secrets within the supply chains.",
+       
+
+"--------------------------------- POUR LA SECTION AVANTAGES --------------------": ".",
+
+    "titre_avantages": "Avantages",
+    "sous_titre_avantages": "What can you benefit from ?",
+    "texte_avantages1": "Digital and free traceability of non-conflicting raw materials and goods without licensing costs, with the possibility of monetization and optimization of data in your supply chains.",
+    "texte_avantages2": "Tracking of non-conflicting raw materials in compliance with trade agreements, thus ensuring the establishment of free markets and obtaining better prices compared to Closed-Pipe models.",
+    "texte_avantages3": "Full compliance with international regulations.",
+    "texte_avantages4": "Enabling responsible and sustainable sourcing of conflict-free commodities and their marketing.",
+
+
+"--------------------------------- POUR LA SECTION OBJECTIFS --------------------": ".",
+
+    "titre_objectifs": "Ziele Goals",
+    "sous_titre_objectifs": "Quite a journey to make",
+    "texte_objectifs": "Sustainable and responsible sourcing is a step towards achieving the UN Sustainable Development Goals. IotaOrigin UG would like to contribute to these goals with its products and take a step towards higher awareness in the procurement of commodities while supporting the local population.",
+
+
+    "--------------------------------- POUR LA SECTION FAQ --------------------": ".",
+
+    "titre_faq": "FAQ",
+    "sous_titre_faq": "Frequently asked questions and answers",
+
+    "texte_accordion_titre1": "What is ASM ?", 
+    "texte_accordion_contenu1": "The overall number of miners working in Artisanal Small Scale Mining (Artisanal Small Scale Mining) has tripled since 1993 to around 45 million people. In addition, between 60 and 150 million people indirectly depend on income from the ASM sector. About 90% of artisanal gold miners work in ASM and contribute 10% to the annual gold production in the world. The informal ASM sector could contribute through further formalization to the achievement of the SDGs.",
+
+    "texte_accordion_titre2": "What do the SDGs mean ?", 
+    "texte_accordion_contenu2": "Formalizing the artisanal and small-scale mining sector, which is currently informal, can also contribute to the achievement of the following objectives: decent work and sustainable economic growth, health and well-being, partnerships for the achievement of the Sustainable Development Goals, protection of the life underwater and on land, and gender equality. The Sustainable Development Goals (SDGs) include 17 goals for developing a sustainable future. The SDGs were established by the United Nations General Assembly in 2015 and are to be achieved by 2030. According to the UNDP, the artisanal and small-scale mining sector can contribute significantly to achieving these goals. These include contributing to poverty reduction, education, sustainable cities and communities, renewable energy, innovation and infrastructure.",
+
+    "texte_accordion_titre3": "What do critical raw materials mean ?", 
+    "texte_accordion_contenu3": "Critical raw materials refer to materials that are essential for sustainable progress and the development of new technologies. They are important from an economic and strategic point of view, but their reliable and unfettered supply is not guaranteed. The EU publishes a report every three years that currently lists 30 critical minerals that are partly or predominantly extracted by the ASM sector.",
+
+    "texte_accordion_titre4": "What are the raw materials of conflict ?", 
+    "texte_accordion_contenu4": "According to the OECD, the raw materials of conflict can lead to the outbreak of conflicts, promote them or prolong them. As a result, the rule of law of sovereign states is undermined, peace is threatened and serious human rights violations are committed. Conflict commodities can jeopardize the prevailing fragile stability, especially in high-risk regions where state institutions are weak. This is why the OECD has published guidelines on the due diligence to be observed when buying raw materials such as tin, tantalum, tungsten and gold (also called 3TG Tin, Tantalum, Tungsten and Gold) in high-risk regions. Based on the OECD guidelines adopted by the international community, the European Union law on conflict minerals or the American Dodd-Frank law (Sec. 1502) have for example been adopted.",
+
+    "texte_accordion_titre5": "How do you balance data privacy and transparency in supply chains ?", 
+    "texte_accordion_contenu5": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre6": "Which dlt to use IotaOrigin ?", 
+    "texte_accordion_contenu6": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre7": "What is blockchain technology ?", 
+    "texte_accordion_contenu7": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+    "texte_accordion_titre8": "How can I participate in the success of IotaOrigin ?", 
+    "texte_accordion_contenu8": "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.",
+
+
+    
+"--------------------------------- POUR LA SECTION DERNIERES NOUVELLES --------------------": ".",
+
+    "titre_newsroom": "Recent news",
+
+    "titre_texte_1_newsroom": "Review of German potential supply chain law.",
+    "texte_ 1_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_2_newsroom": "Women in artisanal and small-scale mining - the challenges and the hope.",
+    "texte_ 2_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_3_newsroom": "The use of mercury in artisanal and small-scale gold mining.",
+    "texte_ 3_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_4_newsroom": "Elementum",
+    "texte_ 4_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+    
+    "titre_texte_5_newsroom": "Elementum",
+    "texte_ 5_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+
+    "titre_texte_6_newsroom": "Elementum",
+    "texte_ 6_newsroom": "#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.", 
+   
+    "readMore": "Read more",
+
+
+"--------------------------------- POUR LA SECTION EQUIPE DU PROJET --------------------": ".",
+
+    "titre_equipe_projet": "Project team",
+    
+
+"--------------------------------- POUR LA SECTION FOOTER --------------------": ".",
+
+    "titre_footer": "Contact us !",
+    "sous_titre_footer": "How can we help you ?",
+
+    "texte_form_nom_footer": "Your Name",
+    "texte_form_email_footer": "Your Email",
+    "texte_form_sujet_footer": "Topic",
+    "texte_form_message_footer": "Your message",
+    "texte_form_bouton_footer": "Send",
+
+    "form_contact_name_error": "Please enter your name",
+    "form_contact_email_error": "Please enter your email address",
+    "form_contact_topic_error": "VPlease enter the message subject",
+    "form_contact_message_error": "Please enter your message",
+  
+    "send_contact_success": "Message sent successfully !",
+    "form_fill_contact_error": "Please fill in your fields correctly.",
+    "connection_error": "No internet connection !",
+  
+    "texte_form_a_propos_footer": "ABOUT US",
+    "texte_form_service_footer": "SERVICE",
+    "texte_form_avantage_footer": "AVANTAGES",
+    "texte_form_objectif_footer": "OBJECTIFS",
+    "texte_form_newroom_footer": "NEWSROOM",
+    
+    "texte_form_droit_footer": "All rights reserved.",
+    "texte_form_lecal_footer": "Legal",
+    "texte_form_termes_footer": "Terms of Service",
+    "texte_form_condition_footer": "Terms of Usen",
+    "texte_form_politique_footer": "Cookies Policies",
+
+    "texte_form_imprint_footer": "Imprint",
+    "texte_form_Privacy_policy_footer": "Privacy Policy",
+
+
+    "-------------------------------------- COOKIE -----------------------------": ".",
+    
+    "cookie": {
+        "header": "Cookies used on the website!",
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "allow": "Allow cookies",
+        "deny": "Decline",
+        "link": "Learn more",
+        "policy": "Cookie Policy"
+    },
+
+
+    "cookie_role" : "Cookies have multiple uses: they can be used to memorize your customer identifier with a merchant site, the current content of your shopping cart, the display language of the web page, an identifier allowing you to trace your browsing statistical or advertising purposes, etc."
+
+
+}

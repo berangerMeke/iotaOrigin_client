@@ -1,0 +1,263 @@
+   <!-- START THE SECTION 1 : THE IMPRINT -->
+   <section id="imprint" class="imprint">
+    <div class="container">
+        <div class="row">
+            <div class="imprint-box">
+                <h1 class="imprint-box--title display-3 display-3-grandient fw-bold anim-elt-1">
+                    <span *ngIf="translate.currentLang === 'en'">{{imprintsDatas[0].titreImprintEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{imprintsDatas[0].titreImprintFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{imprintsDatas[0].titreImprintGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{imprintsDatas[0].titreImprintSw}}</span> 
+                </h1>
+
+                <div>
+                    <div *ngIf="translate.currentLang === 'en'" [innerHTML]="imprintsDatas[0].contenuImprintEn"></div>
+                    <div *ngIf="translate.currentLang === 'fr'" [innerHTML]="imprintsDatas[0].contenuImprintFr"></div>
+                    <div *ngIf="translate.currentLang === 'ger'" [innerHTML]="imprintsDatas[0].contenuImprintGer"></div>
+                    <div *ngIf="translate.currentLang === 'sw'" [innerHTML]="imprintsDatas[0].contenuImprintSw"></div>
+                </div>
+
+                <!-- <h5 class="imprint-box--subtitle fw-bold mb-4 anim-elt-2">Information according to § 5 TMG</h5>
+
+                <h3 class="imprint-box--company anim-elt-3"> IotaOrigin UG
+                    <p class="imprint-box--company__location anim-elt-4">Im Mediapark 5</p>
+                    <p class="imprint-box--company__address anim-elt-5">50670 Cologne</p>
+                </h3>
+
+                <p class="lead anim-elt-6">Represented by:</p>
+                <p class="lead anim-elt-7">(Julian Wikalinski)</p>
+
+                <ul class="imprint-box--contact-elements">
+                    <li class="imprint-box--contact-elements__title anim-elt-8">
+                        <h3>Contact:</h3>
+                    </li>
+                    <li class=" anim-elt-9"><i class="fa fa-envelope"></i> E-Mail: network@iotaorigin.de</li>
+                </ul>
+
+                <p class="imprint-box--tax-info anim-elt-10">Sales tax identification number according to §27a sales tax law: DE341758185</p> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- START THE SECTION 8 : THE FOOTER  -->
+
+<!-- <section id="footer" class="footer text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,176C213.3,192,267,160,320,144C373.3,128,427,128,480,154.7C533.3,181,587,235,640,229.3C693.3,224,747,160,800,138.7C853.3,117,907,139,960,138.7C1013.3,139,1067,117,1120,138.7C1173.3,160,1227,224,1280,208C1333.3,192,1387,96,1413,48L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6 get-in-touch text-center">
+                <h3 class="get-in-touch--title fw-bold anim-elt-37">Get in touch !</h3>
+                <p class="lead get-in-touch--subtitle anim-elt-38">How can we help?</p>
+            </div>
+            
+            <div class="col-12 col-lg-6">
+                <div id="contact" class="form w-100 pb-3">
+                    <form action="#" class="row">
+                        <div class="col-lg-6 col-md-6 mb-3"><input type="txt" placeholder="Your Name:" id="inputName" class="shadow form-control form-control-lg anim-elt-47"></div>
+                        <div class="col-lg-6 col-md-6 mb-3"><input type="email" placeholder="Your Email:" id="inputEmail" class="shadow form-control form-control-lg anim-elt-48"></div>
+                        <div class="col-lg-12 mb-3"><input type="text" placeholder="Subject:" id="inputSubject" class="shadow form-control form-control-lg anim-elt-49"></div>
+                        <div class="col-lg-12 mb-3">
+                            <textarea name="message" id="message" rows="3" placeholder="Your Message:" class="shadow form-control form-control-lg anim-elt-50"></textarea>
+                        </div>
+                        <div class="text-center d-grid mt-1">
+                            <button type="button" class="rounded-pill btn-rounded anim-elt-51">Send
+                                <span><i class="fas fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-3 d-flex align-items-center">
+            <div class="col-12 col-md-4 align-items-center text-center">
+                <a href="" class="brand">
+                    <img src="assets/images/Logo-white.png" alt="" class="brand-logo align-middle anim-elt-39">
+                </a>
+            </div>
+            <div class="col-12 col-md-8">
+                <ul class="nav footer-menu align-middle">
+                    <li class="nav-item anim-elt-40">
+                      <a class="nav-link active" aria-current="page" href="#about-us">ABOUT US</a>
+                    </li>
+                    <li class="nav-item anim-elt-41">
+                      <a class="nav-link" href="#service">SERVICE</a>
+                    </li>
+                    <li class="nav-item anim-elt-42">
+                      <a class="nav-link" href="#benefits">BENEFITS</a>
+                    </li>
+                    <li class="nav-item anim-elt-43">
+                      <a class="nav-link" href="#goals">GOALS</a>
+                    </li>
+                    <li class="nav-item anim-elt-44">
+                      <a class="nav-link" href="#newsroom">NEWSROOM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-2 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="col-sm-12 col-md-8">
+                <ul class="social-media-links justify-content-center">
+                    <li class="social-item">
+                        <a href="" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
+                        <a href="" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-5 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 text-center copyright">
+                <p class="lead copyright--content text-white">© 2022 IotaOrigin UG. All rights reserved.</p>
+            </div>
+            <div class="col-sm-12 col-md-8 text-center text-white terms-menu">
+                <ul class="nav footer-menu terms-menu--content align-middle">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Javascript:void(0)" >Imprint</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Javascript:void(0)" (click)="goToConfidentialite()">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+<!-- START THE SECTION 8 : THE FOOTER  -->
+<section id="footer" class="footer text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,176C213.3,192,267,160,320,144C373.3,128,427,128,480,154.7C533.3,181,587,235,640,229.3C693.3,224,747,160,800,138.7C853.3,117,907,139,960,138.7C1013.3,139,1067,117,1120,138.7C1173.3,160,1227,224,1280,208C1333.3,192,1387,96,1413,48L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6 get-in-touch text-center">
+                <h3 class="get-in-touch--title fw-bold anim-elt-37">
+                    <span *ngIf="translate.currentLang === 'en'">{{footerDatas[0].titreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{footerDatas[0].titreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{footerDatas[0].titreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{footerDatas[0].titreSw}}</span>
+                </h3>
+                <p class="lead get-in-touch--subtitle anim-elt-38">
+                    <span *ngIf="translate.currentLang === 'en'">{{footerDatas[0].sousTitreEn}}</span> 
+                    <span *ngIf="translate.currentLang === 'fr'">{{footerDatas[0].sousTitreFr}}</span> 
+                    <span *ngIf="translate.currentLang === 'ger'">{{footerDatas[0].sousTitreGer}}</span> 
+                    <span *ngIf="translate.currentLang === 'sw'">{{footerDatas[0].sousTitreSw}}</span>
+                </p>
+            </div>
+            
+            <div class="col-12 col-lg-6">
+                <div id="contact" class="form w-100 pb-3">
+                    <form [formGroup]="contacForm"  (ngSubmit)="onSubmit()" class="row">
+                        
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <input name="nom" formControlName="name"  
+                            id="name"  placeholder="{{'texte_form_nom_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-47  contact-text" required>
+                            <div *ngIf="contacForm.controls.name.errors && contacForm.controls.name.touched" class="errorform">
+                                <span>{{'form_contact_name_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <input name="email" formControlName="email"  
+                            id="email"  placeholder="{{'texte_form_email_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-58  contact-text" required>
+                            <div *ngIf="contacForm.controls.email.errors && contacForm.controls.email.touched" class="errorform">
+                                <span>{{'form_contact_email_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mb-3">
+                            <input name="inputSubject" formControlName="topic"  
+                            id="topic"  placeholder="{{'texte_form_sujet_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-59 contact-text" required>
+                            <div *ngIf="contacForm.controls.topic.errors && contacForm.controls.topic.touched" class="errorform">
+                                <span>{{'form_contact_topic_error'|translate}}.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mb-3">
+                            <textarea name="message" formControlName="message" 
+                            id="message" rows="3" placeholder="{{'texte_form_message_footer'|translate}}" 
+                            class="shadow form-control form-control-lg anim-elt-50  contact-text" required> 
+                            </textarea>
+                            <div *ngIf="contacForm.controls.message.errors && contacForm.controls.message.touched" class="errorform">
+                                <span>{{'form_contact_message_error'|translate}}.</span>
+                            </div>
+                        </div>
+                        <div class="text-center d-grid mt-1">
+                            <button type="submit" class="rounded-pill btn-rounded anim-elt-51">
+                                {{'texte_form_bouton_footer'|translate}}
+                                <span><i class="fas fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </form>   
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-3 d-flex align-items-center">
+            <div class="col-12 col-md-4 align-items-center text-center">
+                <a *ngIf="footerDatas[0]" class="brand">
+                    <img [src]="'data:' + footerDatas[0].logoContentType + ';base64,' + footerDatas[0].logo" alt="" class="brand-logo align-middle anim-elt-39">
+                </a>
+            </div>
+            <div class="col-12 col-md-8">
+                <ul class="nav footer-menu align-middle">
+                    <li class="nav-item anim-elt-40">
+                      <a class="nav-link active" aria-current="page" href="#about-us">{{'texte_form_a_propos_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-41">
+                      <a class="nav-link" href="#service">{{'texte_form_service_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-42">
+                      <a class="nav-link" href="#benefits">{{'texte_form_avantage_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-43">
+                      <a class="nav-link" href="#goals">{{'texte_form_objectif_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item anim-elt-44">
+                      <a class="nav-link" href="#newsroom">{{'texte_form_newroom_footer'|translate}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-2 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="col-sm-12 col-md-8">
+                <ul class="social-media-links justify-content-center">
+                    <li class="social-item">
+                        <a href="{{footerDatas[0].discordLink}}" class="discord anim-elt-45"><i class="fab fa-discord"></i></a>
+                        <a href="{{footerDatas[0].twitterlink}}" class="twitter anim-elt-46"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-5 pt-2 d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 text-center copyright">
+                <p class="lead copyright--content text-white">© 2022 IotaOrigin UG. {{'texte_form_droit_footer'|translate}}</p>
+            </div>
+            <div class="col-sm-12 col-md-8 text-center text-white terms-menu">
+                <ul class="nav footer-menu terms-menu--content align-middle">
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="goToConfidentialite()" href="Javascript:void(0)">{{'texte_form_Privacy_policy_footer'|translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Javascript:void(0)">{{'texte_form_imprint_footer'|translate}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+

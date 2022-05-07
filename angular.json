@@ -1,0 +1,127 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "iotaOrigin": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/iota-origin",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css",
+              "node_modules/cookieconsent/build/cookieconsent.min.css",              
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/css/style.css",           
+              "src/assets/vendors/owl-carousel/owl.carousel.min.css",
+              "src/assets/vendors/owl-carousel/owl.theme.default.min.css",              
+              "src/assets/vendors/flat-icon-css/4.1.5/css/flag-icons.min.css",              
+              "src/assets/vendors/JQuery-Scroll-Indicator-Bullets/jquery.scrollindicatorbullets.css",
+              "node_modules/animate.css/animate.min.css"
+                                         
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/vendors/jquery/jquery-3.6.0.min.js",
+              "node_modules/cookieconsent/build/cookieconsent.min.js",             
+              "src/assets/vendors/Modernizr/modernizr.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", 
+              "src/assets/vendors/owl-carousel/owl.carousel.min.js",           
+              "src/assets/js/preloader.js",
+              "src/assets/vendors/Waypoints/noframework.waypoints.min.js", 
+              "src/assets/vendors/jquery/jquery.easing.min.js",
+              "src/assets/vendors/JQuery-Scroll-Indicator-Bullets/jquery.scrollindicatorbullets.min.js",            
+              "src/assets/plugins/js/lottie-animation.js" 
+           ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "iotaOrigin:build:production"
+            },
+            "development": {
+              "browserTarget": "iotaOrigin:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "iotaOrigin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "iotaOrigin"
+}

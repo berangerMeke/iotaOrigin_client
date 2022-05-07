@@ -1,0 +1,57 @@
+<div id="top"></div>
+<!-- START THE TOP BAR  -->
+<nav class="navbar navbar-expand-lg navbar-light topbar shadow sticky-top">
+    <div class="container">
+        <div class="col-12">
+            <a *ngIf="appService.showHomeIcon()" class="home-btn float-start replace"  (click)="goToHome()" href="Javascript:void(0)" style="color: white;">
+                <i class="fa-solid fa-house"></i>
+            </a>    
+            <ul id="language-swither" class="language-switcher navbar-nav float-end">
+                <li class="nav-item dropdown">
+
+                    <span *ngIf="lang_fr"><span class="flag-icon flag-icon-fr"></span> 
+                    <span class="cnav-link dropdown-toggle langue"> Français</span>
+                    </span>
+
+                    <span *ngIf="lang_en"><span class="flag-icon flag-icon-gb"></span> 
+                    <span class="cnav-link dropdown-toggle langue"> English</span>
+                    </span>
+
+                    <span *ngIf="lang_ger"><span class="flag-icon flag-icon-de"></span> 
+                    <span class="cnav-link dropdown-toggle langue"> Deutsch</span>
+                    </span>
+
+                    <span *ngIf="lang_sw"><span class="flag-icon flag-icon-sw"></span> 
+                    <span class="cnav-link dropdown-toggle langue"> Swahili</span>
+                    </span>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdown09" [ngClass]="[dropDownStyle]">
+                        <a class="dropdown-item" href="Javascript:void(0)"
+                        (click)="choixLangue('en')">
+                        <span class="flag-icon flag-icon-gb"> </span>  
+                        English
+                        </a>
+                        <a class="dropdown-item" href="Javascript:void(0)" 
+                        (click)="choixLangue('ger')">
+                        <span class="flag-icon flag-icon-de"> </span>  
+                        Deutsch
+                        </a>
+                        <a class="dropdown-item" href="Javascript:void(0)"
+                         (click)="choixLangue('fr')">
+                         <span class="flag-icon flag-icon-fr"> </span>  
+                         Français
+                        </a>
+                        <a class="dropdown-item" href="Javascript:void(0)"
+                         (click)="choixLangue('sw')">
+                         <span class="flag-icon flag-icon-sw"> </span>  
+                         Swahili
+                        </a>
+                        
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        
+    </div>
+</nav>
