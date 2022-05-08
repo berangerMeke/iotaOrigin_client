@@ -19,13 +19,13 @@ export class AppInterceptor implements HttpInterceptor {
   
     intercept (request: HttpRequest<any>, next: HttpHandler): any {
 
-      console.log('interceptor !');
+     // console.log('interceptor !');
 
       const token = this.tokenService.getToken();
       const refreshToken = this.tokenService.getRefreshToken();
 
       if(token){
-        console.log(token);
+      //  console.log(token);
         request = request.clone({
           setHeaders: {
             Authorization: 'Bearer ' + token
@@ -48,7 +48,7 @@ export class AppInterceptor implements HttpInterceptor {
       return next.handle(request).pipe(
         map((event: HttpEvent<any>) => {
           if(event instanceof HttpResponse) {
-            console.log('event---->>>', event);
+          //  console.log('event---->>>', event);
           }
           return event;
         }),

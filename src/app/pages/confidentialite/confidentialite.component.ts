@@ -150,8 +150,8 @@ export class ConfidentialiteComponent implements OnInit {
         this.privacyPolicyDatas = data;
         this.privacyPolicyDatas[0].titrePrivacyPolicyGer = this.privacyPolicyDatas[0].titrePrivacyPolicyGer.replaceAll('+','<span>');
         this.privacyPolicyDatas[0].titrePrivacyPolicyGer = this.privacyPolicyDatas[0].titrePrivacyPolicyGer.replaceAll('-','</span>')
-        console.log(this.privacyPolicyDatas[0].titrePrivacyPolicyGer); 
-        console.log(this.privacyPolicyDatas); 
+        // console.log(this.privacyPolicyDatas[0].titrePrivacyPolicyGer); 
+        // console.log(this.privacyPolicyDatas); 
         this.changeLanguage();
     });
   }
@@ -160,14 +160,14 @@ export class ConfidentialiteComponent implements OnInit {
   getFooter(){
     this.appService.getFooter().subscribe(data =>{     
       this.footerDatas = data;
-      console.log(this.footerDatas); 
+     // console.log(this.footerDatas); 
       this.changeLanguage();
     });
   }
 
   changeLanguage(){ 
-    console.log(this.translate.currentLang);
-    console.log(localStorage.getItem('lang'));
+    // console.log(this.translate.currentLang);
+    // console.log(localStorage.getItem('lang'));
   }
 
   onSubmit() {
@@ -188,16 +188,16 @@ export class ConfidentialiteComponent implements OnInit {
     this.contactSend.Multipart = true;
     this.contactSend.Html = true;
 
-    console.log(this.contactSend);
+  //  console.log(this.contactSend);
 
       this.appService.envoieEmail(this.contactSend).subscribe({
         next: (data) => {
-          console.log(data)
+        //  console.log(data)
           this.contacForm.reset();
           this.isContactSuccess = true;
         },
         error: (error) => {
-          console.log(error);
+         // console.log(error);
           this.isConnectionError = true;
         }
       });

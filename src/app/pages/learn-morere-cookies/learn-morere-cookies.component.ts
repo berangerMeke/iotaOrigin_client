@@ -28,8 +28,8 @@ export class LearnMorereCookiesComponent implements OnInit {
   }
 
   changeLanguage(){ 
-    console.log(this.translate.currentLang);
-    console.log(localStorage.getItem('lang'));
+    // console.log(this.translate.currentLang);
+    // console.log(localStorage.getItem('lang'));
   }
 
 }

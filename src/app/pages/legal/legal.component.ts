@@ -152,7 +152,7 @@ export class LegalComponent implements OnInit {
   getFooter(){
     this.appService.getFooter().subscribe(data =>{     
       this.footerDatas = data;
-      console.log(this.footerDatas); 
+     // console.log(this.footerDatas); 
       this.changeLanguage();
     });
   }
@@ -160,14 +160,14 @@ export class LegalComponent implements OnInit {
   getImprints(){
     this.appService.getImprints().subscribe(data =>{     
         this.imprintsDatas = data;
-        console.log(this.imprintsDatas); 
+       // console.log(this.imprintsDatas); 
         this.changeLanguage();
     });
   }
 
   changeLanguage(){ 
-    console.log(this.translate.currentLang);
-    console.log(localStorage.getItem('lang'));
+    // console.log(this.translate.currentLang);
+    // console.log(localStorage.getItem('lang'));
   }
 
 
@@ -189,16 +189,16 @@ export class LegalComponent implements OnInit {
     this.contactSend.Multipart = true;
     this.contactSend.Html = true;
 
-    console.log(this.contactSend);
+   // console.log(this.contactSend);
 
       this.appService.envoieEmail(this.contactSend).subscribe({
         next: (data) => {
-          console.log(data)
+         // console.log(data)
           this.contacForm.reset();
           this.isContactSuccess = true;
         },
         error: (error) => {
-          console.log(error);
+        //  console.log(error);
           this.isConnectionError = true;
         }
       });

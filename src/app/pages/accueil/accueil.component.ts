@@ -193,18 +193,18 @@ export class AccueilComponent implements OnInit {
 
   getIntro() {
     this.appService.getIntro().subscribe(data =>{     
-      console.log(data); 
+     // console.log(data); 
       this.introDatas = data;
       this.introDatas[0].titreGer = this.introDatas[0].titreGer.replaceAll('+','<span>');
       this.introDatas[0].titreGer = this.introDatas[0].titreGer.replaceAll('-','</span>')
-      console.log(this.introDatas[0].titreGer); 
+     // console.log(this.introDatas[0].titreGer); 
      // this.changeLanguage();
     });
   }
 
   getApropos(){
     this.appService.getApropos().subscribe(data =>{     
-      console.log(data); 
+    //  console.log(data); 
       this.aProposDatas = data;
       this.changeLanguage();
     });
@@ -213,7 +213,7 @@ export class AccueilComponent implements OnInit {
   getService(){
     this.appService.getService().subscribe(data =>{     
       this.serviceDatas = data;
-      console.log(this.serviceDatas); 
+    //  console.log(this.serviceDatas); 
      // this.changeLanguage();
     });
   }
@@ -221,7 +221,7 @@ export class AccueilComponent implements OnInit {
   getAdvantages(){
     this.appService.getAdvantages().subscribe(data =>{     
       this.advantagesDatas = data;
-      console.log(this.advantagesDatas); 
+     // console.log(this.advantagesDatas); 
       const paragrapheEn_remove_ul_li = this.advantagesDatas[0].textParagraphe1En.split("<ul><li>");
       const paragrapheFr_remove_ul_li = this.advantagesDatas[0].textParagraphe1FR.split("<ul><li>");
       const paragrapheGer_remove_ul_li = this.advantagesDatas[0].textParagraphe1Ger.split("<ul><li>");
@@ -239,10 +239,10 @@ export class AccueilComponent implements OnInit {
         this.paragrapheSw.push(paragrapheSw_remove_ul_li[1].split("</li>")[i].split("<li>")[1]);
       }
      
-      console.log(this.paragrapheEn);
-      console.log(this.paragrapheFr);
-      console.log(this.paragrapheGer);
-      console.log(this.paragrapheSw);
+      // console.log(this.paragrapheEn);
+      // console.log(this.paragrapheFr);
+      // console.log(this.paragrapheGer);
+      // console.log(this.paragrapheSw);
      
       // this.changeLanguage();
     });
@@ -251,8 +251,7 @@ export class AccueilComponent implements OnInit {
   getObjectifs(){
     this.appService.getObjectifs().subscribe(data =>{     
       this.objectifsDatas = data;
-      console.log(this.objectifsDatas); 
-     // this.changeLanguage();
+     // console.log(this.objectifsDatas); 
     });
   }
   
@@ -260,24 +259,21 @@ export class AccueilComponent implements OnInit {
   getFAQs(){
     this.appService.getFAQs().subscribe(data =>{     
       this.FAQsDatas = data;
-      console.log(this.FAQsDatas); 
-     // this.changeLanguage();
+     // console.log(this.FAQsDatas); 
     });
   }
 
   getDernieresNouvelles(){
     this.appService.getDernieresNouvelles().subscribe(data =>{     
       this.dernieresNouvellesDatas = data;     
-      console.log(this.dernieresNouvellesDatas); 
-      // this.changeLanguage();
+     // console.log(this.dernieresNouvellesDatas); ;
     });
   }
 
   getFooter(){
     this.appService.getFooter().subscribe(data =>{     
       this.footerDatas = data;
-      console.log(this.footerDatas); 
-     // this.changeLanguage();
+     // console.log(this.footerDatas); 
     });
   }
 
@@ -327,16 +323,16 @@ export class AccueilComponent implements OnInit {
     this.contactSend.Multipart = true;
     this.contactSend.Html = true;
 
-    console.log(this.contactSend);
+   // console.log(this.contactSend);
 
       this.appService.envoieEmail(this.contactSend).subscribe({
         next: (data) => {
-          console.log(data)
+       //   console.log(data)
           this.contacForm.reset();
           this.isContactSuccess = true;
         },
         error: (error) => {
-          console.log(error);
+        //  console.log(error);
           this.isConnectionError = true;
         }
       });

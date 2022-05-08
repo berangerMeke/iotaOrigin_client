@@ -38,7 +38,7 @@ export class NavbarComponent implements OnInit {
     this.choixLangue(this.lan);
   
     this.showHomeIcone = localStorage.getItem('homeIcone');
-    console.log(this.translate.currentLang);
+   // console.log(this.translate.currentLang);
   }
 
 

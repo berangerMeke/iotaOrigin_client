@@ -38,13 +38,13 @@ export class AuthService {
   }
 
   private static log(message: string): any {
-    console.log(message);
+   // console.log(message);
   };
   
   constructor(private http: HttpClient, private tokenServive: TokenService) { }
 
   login(loginData: any): Observable<any> {
-    console.log(loginData);
+   // console.log(loginData);
     this.tokenServive.removeToken();
     this.tokenServive.removeRefreshToken();
     const body = new HttpParams()
@@ -53,7 +53,7 @@ export class AuthService {
       .set('grant_type', loginData.password);
     return this.http.post<any>(AUTH_URL, body, HTTP_OPTIONS)    
         .pipe(tap(res => {
-          console.log(res.access_token);
+         // console.log(res.access_token);
           this.tokenServive.saveToken(res.access_token);
           this.tokenServive.saveRefreshToken(res.refresh_token);
         }),

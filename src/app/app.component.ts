@@ -80,9 +80,9 @@ export class AppComponent {
         this.localStorageContent = localStorage.getItem('1');
         this.sessionStorageContent = sessionStorage.getItem('1');
 
-        console.log(this.cookieContent);
-        console.log(this.localStorageContent);
-        console.log(this.sessionStorageContent);
+        // console.log(this.cookieContent);
+        // console.log(this.localStorageContent);
+        // console.log(this.sessionStorageContent);
        // -------------------------------------------- 
 
 
@@ -173,7 +173,7 @@ export class AppComponent {
 
 
   choixLangue(langue : any){
-    console.log(langue);
+  //  console.log(langue);
     if(langue == "Français"){
       this.translate.use('fr');
       this.lang_fr = true;
@@ -207,9 +207,8 @@ export class AppComponent {
 
 
   changeLanguage(){ 
-    console.log(this.translate.currentLang);
-    console.log(localStorage.getItem('lang'));
-   // this.initCookieConsentDialog();
+    // console.log(this.translate.currentLang);
+    // console.log(localStorage.getItem('lang'));
   }
 
 
@@ -241,7 +240,7 @@ export class AppComponent {
 
   getGoogleAnalyticsID(){
     this.appService.getGoogleAnalyticsID().subscribe(data =>{     
-      console.log(data); 
+     // console.log(data); 
       this.googleAnalytics = data;
       localStorage.setItem('googleAnalyticsID', JSON.stringify({id: this.googleAnalytics[0].googleAnalyticsID}))
       
